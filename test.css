@@ -1,39 +1,619 @@
 * {
  
-    box-sizing: border-box;
-  }
-  body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 20px;
+  overflow: hidden;
+  background-color: rgb(255, 174, 0);
+}
+
+li {
+  float: right;
+  margin:30px;
+  margin-bottom: 0px;
+  margin-top: -5px;
+}
+
+li a {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.header {
+      background-color: rgb(255, 174, 0);
+      color: white;
+      padding: 5px;
+      width:100%;
+      font-size: 21px;
+    }
+.header::after {
+      display:block;
+      content: "";
+      clear: both;
+}
+.test {
+  width: 100%;
+   padding: 10px;
+   height: 400px;
+   background-color: rgb(255, 196, 0);
+   color: white;
+   text-align: left;
+   font-size: 20px;
+   padding-right: 70px;
+   padding-left: 180px;
+   padding-top: 50px;
+ }
+.test1 {
+  float: left;
+ width: 50%;
+
+}
+.test2 {
+  float: right;
+  width: 50%;
+}
+.newimage{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+.test::after {
+  display:block;
+  content: "";
+  clear: both;
+}
+
+.add {
+  float: left;
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  padding-left:180px ;
+  padding-right: 120px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 0px;
+  padding-top: 50px;
+
+}
+.add1 {
+  float: left;
+  width: 50%;
+  background-color: white;
+  color: black;
+  text-align: left;
+}
+.add2 {
+  float: right;
+  width: 50%;
+  background-color: white;
+  color: black;
+  text-align: right;
+}
+.add::after {
+  display:block;
+  content: "";
+  clear: both;
+}
+.sum {
+  float: left;
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  padding-left:160px ;
+  padding-right: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 0px;
+  padding-top: 30px;
+}
+.sum2 {
+  float: left;
+  width: 50%;
+  background-color: white;
+  color: black;
+  text-align: left;
+}
+.sum1 {
+  float: right;
+  width: 50%;
+  background-color: white;
+  color: black;
+  text-align: right;
+}
+.sum::after {
+  display:block;
+  content: "";
+  clear: both;
+}
+.div {
+  float: center;
+  width: 100%;
+  background-color: rgb(255, 196, 0);
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left:100px ;
+  padding-right: 200px;
+  padding-bottom: 40px;
+  padding-top: 30px;
+}
+    
+.div11 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+  padding-left: 100px;
+}
+.div12 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center; 
+  padding-left: 150px;
   
-  ul {
-    list-style-type: none;
-    padding: 20px;
-    overflow: hidden;
-    background-color: rgb(255, 174, 0);
-  }
+}
+.div13 {
+  float: right;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+  padding-left: 100px;
+} 
+    .div::after{
+      display:block;
+      content:"";
+      clear:both;
+    }
+    .div1 {
   
-  li {
-    float: right;
-    margin:30px;
-    margin-bottom: 0px;
-    margin-top: -5px;
-  }
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+.div21 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: left;
+  padding-left: 175px;
+  padding-right: 0px;
+
+}
+.div22{
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: left;
+  padding-left: 150px;
+
+}
+.div23 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: left;
+  padding-left: 100px;
+}
+    .div1::after{
+      display:block;
+      content:"";
+      clear:both;
+    }
+ 
+    .div4 {
+      height: 400px;
+      width: 100%;
+      background-color: rgb(255, 196, 0);
+      background-repeat: no-repeat;
+      color: white;
+      text-align: center;
+      font-size: 22px;
+      background-image: url("backimage.jpg");
+      background-size: cover;
+      background-position: center ;
+      padding-right: 100px;
+      padding-left: 100px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .div41 {
+  float: left;
+  width: 30%;
+  text-align: center;
+
+}
+.div42 {
+  float: left;
+  width: 30%;
+  text-align: center;
+
+}
+.div43 {
+  float: right;
+  width: 30%;
+  text-align: center;
+  padding-right: 100px;
+}
+.div4::after {
+  display:block;
+  content: "";
+  clear: both;
+}
+
+.div3 {
+  float: center;
+  width: 100%;
+  background-color: rgb(255, 196, 0);
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left:100px ;
+  padding-right: 200px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+.div31 {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  padding-left: 80px;
+}
+.div32 {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  padding-left: 70px;
+}
+.div33 {
+  float: right;
+  width: 33.33%;
+  text-align: center;
+  padding-left: 80px;
+}
+.div3::after {
+  content: "";
+  display:block;
+  clear: both;
+}
+    
+img {
+  border-radius: 8px;
+  float: center;
+}
+video {
+  float: right;
+  margin-right: 80px;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+button:hover {
+  background-color: rgb(32, 185, 236);
+}
+
+.button {
+  background-color: rgb(255, 196, 0);
+  color: white;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 10px 22px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
   
-  li a {
-    display: inline;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+}
+.button1 {
+  background-color: rgb(60, 151, 187);
+  color: white;
+  border: none;
+  border-radius: 32px;
+  padding: 10px 22px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.logo img{
+  position: absolute;
+  float:left;
+  margin-left: 130px;
+  margin-top: 25px;
+}
+.search-container {
+  float: right;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  margin-right: 150px;
+  margin-bottom: -7px;
+  border-radius: 20%;
+  margin-top:35px;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 16px;
+ 
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background-color: white;
+  color: black;
+}
+
+.fa-twitter {
+  background: white;
+  color: black;
+}
+.fa-instagram {
+  background: white;
+  color: black;
+}
+.fa-whatsapp{
+ background: white;
+  color: black;
+}
+.search-container form{
+  position: relative;
+}
+.btn_search{
+  background-color: skyblue;
+  border: none;
+  position: absolute;
+  top: 0;
+}
+.btn_search i{
+  padding: 0;
+  font-size: 23px;
+}
+.search_input{
+  background-color: rgb(255, 196, 0);
+  border: none;
+padding: 10px;
+}
+.h {
+  float: center;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left:150px ;
+  padding-right: 50px;
+}
+.h1 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: left;
+
+}
+.h2 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: left;
+
+}
+.h3 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: left;
+}
+.h::after {
+  display:block;
+  content: "";
+  clear: both;
+}
+.footer {
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding-left:150px ;
+  padding-right: 70px;
+        }
+  .box1 {
+  float: left;
+  width: 30%;
+  text-align: left;
   }
+
+  .box2 {
+  float: left;
+  width: 30%;
+  text-align: left;
+        }
+  .box3 {
+  float: left;
+  width: 30%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  }
+  .search-container1 {
+  float: right;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20%;
+  margin-top:35px;
+  margin-right: 50px;
+  padding-bottom: 20px;
+}
+.search-container1 form{
+  position: relative;
+}
+.btn_search{
+  background-color: skyblue;
+  border: none;
+
+}
+.btn_search i{
+  padding: 0;
+  font-size: 23px;
+}
+.search_input{
+  background-color: rgb(255, 196, 0);
+  border: none;
+  padding: 10px;
+}
+ 
+  .social_media-icon  {
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 50%;
+}
+
+.social_media-icon:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background-color: gold;
+  color: white;
+}
+
+.fa-twitter {
+  background: gold;
+  color: white;
+}
+.fa-instagram {
+  background: gold;
+  color: white;
+}
+.fa-whatsapp{
+ background: gold;
+  color: white;
+}
+section.su:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.suraj::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.newimg{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.newimage{
+  height: 300px;
+  width: 350px;
+ 
+  padding-right: 0px;
+}
+ @media only screen and (max-width: 1024px) {
+
   .header {
         background-color: rgb(255, 174, 0);
         color: white;
         padding: 5px;
         width:100%;
-        font-size: 21px;
+        font-size: 15px;
+        padding-left: 0px;
+        padding-right: 50px;
+      }
+      .logo img{
+        position: absolute;
+        margin-top: 20px;
+        margin-left:90px;
+      }
+        
+  ul {
+    list-style-type: none;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgb(255, 174, 0);
+    display: block;
+  }
+  
+  li {
+    float: center;
+    margin:0px;
+    margin-bottom: 0px;
+    margin-top: -5px;
+    display: block;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+      .search-container {
+        float: right;
+        font-size: 5px;
+        border: none;
+        cursor: pointer;
+        margin-right: 80px;
+        margin-bottom: 0px;
+        border-radius: 0%;
+        margin-top:25px;
+      }
+      .search-container form{
+        position: relative;
+      }
+      .btn_search{
+        background-color: skyblue;
+        border: none;
+        position: absolute;
+        top: 0;
+        right: -36;
+      }
+      .btn_search i{
+        padding: 0;
+        font-size: 13px;
+      }
+      .search_input{
+        background-color: rgb(255, 196, 0);
+        border: none;
+      padding: 5px;
       }
   .header::after {
         display:block;
@@ -42,17 +622,18 @@
   }
   .test {
     width: 100%;
-     padding: 10px;
-     height: 400px;
+     padding: 0px;
+     height: 100%;
      background-color: rgb(255, 196, 0);
      color: white;
      text-align: left;
      font-size: 20px;
-     padding-right: 70px;
-     padding-left: 180px;
-     padding-top: 50px;
+     padding-right: 0px;
+     padding-left: 100px;
+     padding-top: 40px;
+     padding-bottom: 40px;
    }
-  .test1 {
+   .test1 {
     float: left;
    width: 50%;
   
@@ -64,43 +645,36 @@
   .newimage{
     height: 300px;
     width: 300px;
-    object-fit: cover;
   }
-  .test::after {
-    display:block;
+  .test::after{
     content: "";
     clear: both;
+    display: block;
   }
   
   .add {
     float: left;
     width: 100%;
-    height: 300px;
+    height: 100%;
     background-color: white;
     color: black;
     text-align: center;
     font-size: 20px;
-    padding-left:180px ;
-    padding-right: 120px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-left:100px ;
+    padding-right: 0px;
     padding-bottom: 0px;
-    padding-top: 50px;
+    padding-top: 30px;
   
   }
   .add1 {
     float: left;
     width: 50%;
-    background-color: white;
-    color: black;
-    text-align: left;
+  padding-top: 50px;
   }
   .add2 {
     float: right;
     width: 50%;
-    background-color: white;
-    color: black;
-    text-align: right;
+
   }
   .add::after {
     display:block;
@@ -110,30 +684,24 @@
   .sum {
     float: left;
     width: 100%;
-    height: 300px;
+    height: 100%;
     background-color: white;
     color: black;
     text-align: center;
     font-size: 20px;
-    padding-left:160px ;
-    padding-right: 150px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-left: 180px ;
+    padding-right: 100px;
     padding-bottom: 0px;
     padding-top: 30px;
   }
   .sum2 {
     float: left;
     width: 50%;
-    background-color: white;
-    color: black;
     text-align: left;
   }
   .sum1 {
     float: right;
     width: 50%;
-    background-color: white;
-    color: black;
     text-align: right;
   }
   .sum::after {
@@ -144,41 +712,42 @@
   .div {
     float: center;
     width: 100%;
+    height: 100%;
     background-color: rgb(255, 196, 0);
     color: white;
     text-align: center;
     font-size: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
-    padding-left:100px ;
-    padding-right: 200px;
-    padding-bottom: 40px;
+    padding-left: 50px ;
+    padding-right: 150px;
+    padding-bottom: 50px;
     padding-top: 30px;
   }
-      
   .div11 {
     float: left;
+    padding: 0px;
     width: 30%;
-    padding: 10px;
     text-align: center;
-    padding-left: 100px;
+    padding-left: 50px;
   }
   .div12 {
-    float: left;
-    width: 30%;
-    padding: 10px;
-    text-align: center; 
-    padding-left: 150px;
-    
-  }
-  .div13 {
     float: right;
     width: 30%;
-    padding: 10px;
+    margin-right: -80px;
+    padding: 0px;
     text-align: center;
-    padding-left: 100px;
-  } 
-      .div::after{
+  }
+  .div13 {
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 0px;
+    padding-left: 120px;
+    padding-right: 0px;
+  }
+
+      .flex-container::after{
         display:block;
         content:"";
         clear:both;
@@ -192,6 +761,8 @@
     font-size: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 0px;
   
   }
   .div21 {
@@ -199,8 +770,7 @@
     width: 30%;
     padding: 10px;
     text-align: left;
-    padding-left: 175px;
-    padding-right: 0px;
+   
   
   }
   .div22{
@@ -208,7 +778,6 @@
     width: 30%;
     padding: 10px;
     text-align: left;
-    padding-left: 150px;
   
   }
   .div23 {
@@ -216,7 +785,7 @@
     width: 30%;
     padding: 10px;
     text-align: left;
-    padding-left: 100px;
+  
   }
       .div1::after{
         display:block;
@@ -273,28 +842,26 @@
     font-size: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
-    padding-left:100px ;
-    padding-right: 200px;
+    padding-left: 30px ;
+    padding-right: 100px;
     padding-bottom: 50px;
     padding-top: 30px;
   }
   .div31 {
     float: left;
+    padding: 5px;
     width: 33.33%;
     text-align: center;
-    padding-left: 80px;
   }
   .div32 {
     float: left;
     width: 33.33%;
     text-align: center;
-    padding-left: 70px;
   }
   .div33 {
     float: right;
     width: 33.33%;
     text-align: center;
-    padding-left: 80px;
   }
   .div3::after {
     content: "";
@@ -339,22 +906,6 @@
     margin: 4px 2px;
     cursor: pointer;
   }
-  .logo img{
-    position: absolute;
-    float:left;
-    margin-left: 130px;
-    margin-top: 25px;
-  }
-  .search-container {
-    float: right;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-    margin-right: 150px;
-    margin-bottom: -7px;
-    border-radius: 20%;
-    margin-top:35px;
-  }
   
   .fa {
     padding: 15px;
@@ -386,35 +937,18 @@
    background: white;
     color: black;
   }
-  .search-container form{
-    position: relative;
-  }
-  .btn_search{
-    background-color: skyblue;
-    border: none;
-    position: absolute;
-    top: 0;
-  }
-  .btn_search i{
-    padding: 0;
-    font-size: 23px;
-  }
-  .search_input{
-    background-color: rgb(255, 196, 0);
-    border: none;
-  padding: 10px;
-  }
+  
   .h {
     float: center;
     width: 100%;
     background-color: white;
     color: black;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 50px;
     margin-bottom: 50px;
-    padding-left:150px ;
-    padding-right: 50px;
+    padding-left: 125px ;
+    padding-right: 0px;
   }
   .h1 {
     float: left;
@@ -443,13 +977,14 @@
   }
   .footer {
     width: 100%;
-    height: 300px;
+    height: 400px;
     background-color: black;
     color: white;
     text-align: center;
     font-size: 15px;
-    padding-left:150px ;
-    padding-right: 70px;
+    padding-left:100px ;
+    padding-right: 50px;
+    padding-top: 50px;
           }
     .box1 {
     float: left;
@@ -542,2739 +1077,2204 @@
     object-fit: cover;
   }
   .newimage{
-    height: 300px;
+    height: 250px;
     width: 350px;
+    object-fit: cover;
+  }
+
+} 
+
+@media only screen and (max-width: 992px) {
+
+  .header {
+        background-color: rgb(255, 174, 0);
+        color: white;
+        padding: 5px;
+        width:100%;
+        font-size: 15px;
+        padding-left: 0px;
+        padding-right: 50px;
+      }
+      .logo img{
+        position: absolute;
+        margin-top: 20px;
+      }
+        
+  ul {
+    list-style-type: none;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgb(255, 174, 0);
+    display: block;
+  }
+  
+  li {
+    float: center;
+    margin:0px;
+    margin-bottom: 0px;
+    margin-top: -5px;
+    display: block;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+      .search-container {
+        float: right;
+        font-size: 5px;
+        border: none;
+        cursor: pointer;
+        margin-right: 80px;
+        margin-bottom: 0px;
+        border-radius: 0%;
+        margin-top:25px;
+      }
+      .search-container form{
+        position: relative;
+      }
+      .btn_search{
+        background-color: skyblue;
+        border: none;
+        position: absolute;
+        top: 0;
+        right: -36;
+      }
+      .btn_search i{
+        padding: 0;
+        font-size: 13px;
+      }
+      .search_input{
+        background-color: rgb(255, 196, 0);
+        border: none;
+      padding: 5px;
+      }
+  .header::after {
+        display:block;
+        content: "";
+        clear: both;
+  }
+  .test {
+    width: 100%;
+     padding: 0px;
+     height: 100%;
+     background-color: rgb(255, 196, 0);
+     color: white;
+     text-align: left;
+     font-size: 20px;
+     padding-right: 0px;
+     padding-left: 100px;
+     padding-top: 40px;
+     padding-bottom: 40px;
+   }
+   .test1 {
+    float: left;
+   width: 50%;
+  
+  }
+  .test2 {
+    float: right;
+    width: 50%;
+  }
+  .newimage{
+    height: 300px;
+    width: 300px;
+  }
+  .test::after{
+    content: "";
+    clear: both;
+    display: block;
+  }
+  
+  .add {
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    padding-left:100px ;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+  
+  }
+  .add1 {
+    float: left;
+    width: 50%;
+  padding-top: 50px;
+  }
+  .add2 {
+    float: right;
+    width: 50%;
+
+  }
+  .add::after {
+    display:block;
+    content: "";
+    clear: both;
+  }
+  .sum {
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 180px ;
+    padding-right: 100px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+  }
+  .sum2 {
+    float: left;
+    width: 50%;
+    text-align: left;
+  }
+  .sum1 {
+    float: right;
+    width: 50%;
+    text-align: right;
+  }
+  .sum::after {
+    display:block;
+    content: "";
+    clear: both;
+  }
+  .div {
+    float: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 196, 0);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 50px ;
+    padding-right: 0px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+  }
+  .div11 {
+    float: left;
+    padding: 5px;
+    width: 30%;
+    text-align: center;
+  }
+  .div12 {
+    float: right;
+    width: 30%;
+    margin-right: 60px;
+  }
+  .div13 {
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding-left: 40px;
+  }
+
+      .flex-container::after{
+        display:block;
+        content:"";
+        clear:both;
+      }
+      .div1 {
+    
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 0px;
+  
+  }
+  .div21 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: left;
    
+  
+  }
+  .div22{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: left;
+  
+  }
+  .div23 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: left;
+  
+  }
+      .div1::after{
+        display:block;
+        content:"";
+        clear:both;
+      }
+   
+      .div4 {
+        height: 400px;
+        width: 100%;
+        background-color: rgb(255, 196, 0);
+        background-repeat: no-repeat;
+        color: white;
+        text-align: center;
+        font-size: 22px;
+        background-image: url("backimage.jpg");
+        background-size: cover;
+        background-position: center ;
+        padding-right: 100px;
+        padding-left: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      .div41 {
+    float: left;
+    width: 30%;
+    text-align: center;
+  
+  }
+  .div42 {
+    float: left;
+    width: 30%;
+    text-align: center;
+  
+  }
+  .div43 {
+    float: right;
+    width: 30%;
+    text-align: center;
+    padding-right: 100px;
+  }
+  .div4::after {
+    display:block;
+    content: "";
+    clear: both;
+  }
+  
+  .div3 {
+    float: center;
+    width: 100%;
+    background-color: rgb(255, 196, 0);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 30px ;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+  }
+  .div31 {
+    float: left;
+    padding: 5px;
+    width: 33.33%;
+    text-align: center;
+  }
+  .div32 {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+  }
+  .div33 {
+    float: right;
+    width: 33.33%;
+    text-align: center;
+  }
+  .div3::after {
+    content: "";
+    display:block;
+    clear: both;
+  }
+      
+  img {
+    border-radius: 8px;
+    float: center;
+  }
+  video {
+    float: right;
+    margin-right: 80px;
+    border-radius: 8px;
+    margin-top: 40px;
+  }
+  button:hover {
+    background-color: rgb(32, 185, 236);
+  }
+  
+  .button {
+    background-color: rgb(255, 196, 0);
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 10px 22px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+  }
+  .button1 {
+    background-color: rgb(60, 151, 187);
+    color: white;
+    border: none;
+    border-radius: 32px;
+    padding: 10px 22px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .fa {
+    padding: 15px;
+    font-size: 16px;
+   
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background-color: white;
+    color: black;
+  }
+  
+  .fa-twitter {
+    background: white;
+    color: black;
+  }
+  .fa-instagram {
+    background: white;
+    color: black;
+  }
+  .fa-whatsapp{
+   background: white;
+    color: black;
+  }
+  
+  .h {
+    float: center;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 100px ;
     padding-right: 0px;
   }
-   @media only screen and (max-width: 1024px) {
+  .h1 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: left;
   
-    .header {
-          background-color: rgb(255, 174, 0);
-          color: white;
-          padding: 5px;
-          width:100%;
-          font-size: 15px;
-          padding-left: 0px;
-          padding-right: 50px;
-        }
-        .logo img{
-          position: absolute;
-          margin-top: 20px;
-          margin-left:90px;
-        }
-        	
-    ul {
-      list-style-type: none;
-      padding: 10px;
-      overflow: hidden;
-      background-color: rgb(255, 174, 0);
-      display: block;
-    }
-    
-    li {
-      float: center;
-      margin:0px;
-      margin-bottom: 0px;
-      margin-top: -5px;
-      display: block;
-    }
-    
-    li a {
-      display: block;
-      color: white;
-      text-align: center;
-      text-decoration: none;
-    }
-        .search-container {
-          float: right;
-          font-size: 5px;
-          border: none;
-          cursor: pointer;
-          margin-right: 80px;
-          margin-bottom: 0px;
-          border-radius: 0%;
-          margin-top:25px;
-        }
-        .search-container form{
-          position: relative;
-        }
-        .btn_search{
-          background-color: skyblue;
-          border: none;
-          position: absolute;
-          top: 0;
-          right: -36;
-        }
-        .btn_search i{
-          padding: 0;
-          font-size: 13px;
-        }
-        .search_input{
-          background-color: rgb(255, 196, 0);
-          border: none;
-        padding: 5px;
-        }
-    .header::after {
-          display:block;
-          content: "";
-          clear: both;
-    }
-    .test {
-      width: 100%;
-       padding: 0px;
-       height: 100%;
-       background-color: rgb(255, 196, 0);
-       color: white;
-       text-align: left;
-       font-size: 20px;
-       padding-right: 0px;
-       padding-left: 100px;
-       padding-top: 40px;
-       padding-bottom: 40px;
-     }
-     .test1 {
-      float: left;
-     width: 50%;
-    
-    }
-    .test2 {
-      float: right;
-      width: 50%;
-    }
-    .newimage{
-      height: 300px;
-      width: 300px;
-    }
-    .test::after{
-      content: "";
-      clear: both;
-      display: block;
-    }
-    
-    .add {
-      float: left;
-      width: 100%;
-      height: 100%;
-      background-color: white;
-      color: black;
-      text-align: center;
-      font-size: 20px;
-      padding-left:100px ;
-      padding-right: 0px;
-      padding-bottom: 0px;
-      padding-top: 30px;
-    
-    }
-    .add1 {
-      float: left;
-      width: 50%;
-    padding-top: 50px;
-    }
-    .add2 {
-      float: right;
-      width: 50%;
+  }
+  .h2 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: left;
   
+  }
+  .h3 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: left;
+  }
+  .h::after {
+    display:block;
+    content: "";
+    clear: both;
+  }
+  .footer {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-left:100px ;
+    padding-right: 50px;
+    padding-top: 35px;
+          }
+    .box1 {
+    float: left;
+    width: 30%;
+    text-align: left;
     }
-    .add::after {
-      display:block;
+  
+    .box2 {
+    float: left;
+    width: 30%;
+    text-align: left;
+          }
+    .box3 {
+    float: left;
+    width: 30%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    }
+    .search-container1 {
+    float: right;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20%;
+    margin-top:35px;
+    margin-right: 50px;
+    padding-bottom: 20px;
+  }
+  .search-container1 form{
+    position: relative;
+  }
+  .btn_search{
+    background-color: skyblue;
+    border: none;
+  
+  }
+  .btn_search i{
+    padding: 0;
+    font-size: 23px;
+  }
+  .search_input{
+    background-color: rgb(255, 196, 0);
+    border: none;
+    padding: 10px;
+  }
+   
+    .social_media-icon  {
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+  }
+  
+  .social_media-icon:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background-color: gold;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: gold;
+    color: white;
+  }
+  .fa-instagram {
+    background: gold;
+    color: white;
+  }
+  .fa-whatsapp{
+   background: gold;
+    color: white;
+  }
+  section.su:after {
       content: "";
       clear: both;
-    }
-    .sum {
-      float: left;
-      width: 100%;
-      height: 100%;
-      background-color: white;
-      color: black;
-      text-align: center;
-      font-size: 20px;
-      padding-left: 180px ;
-      padding-right: 100px;
-      padding-bottom: 0px;
-      padding-top: 30px;
-    }
-    .sum2 {
-      float: left;
-      width: 50%;
-      text-align: left;
-    }
-    .sum1 {
-      float: right;
-      width: 50%;
-      text-align: right;
-    }
-    .sum::after {
-      display:block;
-      content: "";
-      clear: both;
-    }
-    .div {
-      float: center;
-      width: 100%;
-      height: 100%;
-      background-color: rgb(255, 196, 0);
-      color: white;
-      text-align: center;
-      font-size: 20px;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      padding-left: 50px ;
-      padding-right: 150px;
-      padding-bottom: 50px;
-      padding-top: 30px;
-    }
-    .div11 {
-      float: left;
-      padding: 0px;
-      width: 30%;
-      text-align: center;
-      padding-left: 50px;
-    }
-    .div12 {
-      float: right;
-      width: 30%;
-      margin-right: -80px;
-      padding: 0px;
-      text-align: center;
-    }
-    .div13 {
-      float: left;
-      width: 30%;
-      text-align: center;
-      padding: 0px;
-      padding-left: 120px;
-      padding-right: 0px;
-    }
+      display: block;
+  }
+  .suraj::after{
+    content: "";
+    clear: both;
+    display: block;
+  }
+  .newimg{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
 
-        .flex-container::after{
-          display:block;
-          content:"";
-          clear:both;
-        }
-        .div1 {
-      
-      width: 100%;
-      background-color: white;
-      color: black;
-      text-align: center;
-      font-size: 20px;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      padding-left: 100px;
-      padding-right: 0px;
-    
-    }
-    .div21 {
-      float: left;
-      width: 30%;
-      padding: 10px;
-      text-align: left;
-     
-    
-    }
-    .div22{
-      float: left;
-      width: 30%;
-      padding: 10px;
-      text-align: left;
-    
-    }
-    .div23 {
-      float: left;
-      width: 30%;
-      padding: 10px;
-      text-align: left;
-    
-    }
-        .div1::after{
-          display:block;
-          content:"";
-          clear:both;
-        }
-     
-        .div4 {
-          height: 400px;
-          width: 100%;
-          background-color: rgb(255, 196, 0);
-          background-repeat: no-repeat;
-          color: white;
-          text-align: center;
-          font-size: 22px;
-          background-image: url("backimage.jpg");
-          background-size: cover;
-          background-position: center ;
-          padding-right: 100px;
-          padding-left: 100px;
-          padding-top: 50px;
-          padding-bottom: 50px;
-        }
-        .div41 {
-      float: left;
-      width: 30%;
-      text-align: center;
-    
-    }
-    .div42 {
-      float: left;
-      width: 30%;
-      text-align: center;
-    
-    }
-    .div43 {
-      float: right;
-      width: 30%;
-      text-align: center;
-      padding-right: 100px;
-    }
-    .div4::after {
-      display:block;
-      content: "";
-      clear: both;
-    }
-    
-    .div3 {
-      float: center;
-      width: 100%;
-      background-color: rgb(255, 196, 0);
-      color: white;
-      text-align: center;
-      font-size: 20px;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      padding-left: 30px ;
-      padding-right: 100px;
-      padding-bottom: 50px;
-      padding-top: 30px;
-    }
-    .div31 {
-      float: left;
-      padding: 5px;
-      width: 33.33%;
-      text-align: center;
-    }
-    .div32 {
-      float: left;
-      width: 33.33%;
-      text-align: center;
-    }
-    .div33 {
-      float: right;
-      width: 33.33%;
-      text-align: center;
-    }
-    .div3::after {
-      content: "";
-      display:block;
-      clear: both;
-    }
+} 
+
+
+  @media only screen and (max-width: 768px) {
+
+  .header {
+        background-color: rgb(255, 174, 0);
+        color: white;
+        padding: 5px;
+        width:100%;
+        font-size: 15px;
+        padding-left: 0px;
+        padding-right: 30px;
+      }
+      .logo img{
+        position: absolute;
+        margin-top: 15px;
+        height: 55px;
+        width: 150px;
+        margin-left: 50px;
+
+      }
         
-    img {
-      border-radius: 8px;
-      float: center;
-    }
-    video {
-      float: right;
-      margin-right: 80px;
-      border-radius: 8px;
-      margin-top: 40px;
-    }
-    button:hover {
-      background-color: rgb(32, 185, 236);
-    }
-    
-    .button {
-      background-color: rgb(255, 196, 0);
-      color: white;
-      border: 2px solid white;
-      border-radius: 4px;
-      padding: 10px 22px;
-      text-align: center;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-      
-    }
-    .button1 {
-      background-color: rgb(60, 151, 187);
-      color: white;
-      border: none;
-      border-radius: 32px;
-      padding: 10px 22px;
-      text-align: center;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-    }
-    
-    .fa {
-      padding: 15px;
-      font-size: 16px;
-     
-      text-align: center;
-      text-decoration: none;
-      margin: 5px 5px;
-      border-radius: 50%;
-    }
-    
-    .fa:hover {
-        opacity: 0.7;
-    }
-    .fa-facebook {
-      background-color: white;
-      color: black;
-    }
-    
-    .fa-twitter {
-      background: white;
-      color: black;
-    }
-    .fa-instagram {
-      background: white;
-      color: black;
-    }
-    .fa-whatsapp{
-     background: white;
-      color: black;
-    }
-    
-    .h {
-      float: center;
-      width: 100%;
-      background-color: white;
-      color: black;
-      text-align: center;
-      font-size: 15px;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      padding-left: 125px ;
-      padding-right: 0px;
-    }
-    .h1 {
-      float: left;
-      width: 30%;
-      padding: 10px;
-      text-align: left;
-    
-    }
-    .h2 {
-      float: left;
-      width: 30%;
-      padding: 10px;
-      text-align: left;
-    
-    }
-    .h3 {
-      float: left;
-      width: 30%;
-      padding: 10px;
-      text-align: left;
-    }
-    .h::after {
-      display:block;
-      content: "";
-      clear: both;
-    }
-    .footer {
-      width: 100%;
-      height: 400px;
-      background-color: black;
-      color: white;
-      text-align: center;
-      font-size: 15px;
-      padding-left:100px ;
-      padding-right: 50px;
-      padding-top: 50px;
-            }
-      .box1 {
-      float: left;
-      width: 30%;
-      text-align: left;
+  ul {
+    list-style-type: none;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgb(255, 174, 0);
+    display: block;
+  }
+  
+  li {
+    float: center;
+    margin:0px;
+    margin-bottom: 0px;
+    margin-top: -5px;
+    display: block;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+      .search-container {
+        float: right;
+        font-size: 5px;
+        border: none;
+        cursor: pointer;
+        margin-right: 80px;
+        margin-bottom: 0px;
+        border-radius: 0%;
+        margin-top:25px;
       }
-    
-      .box2 {
-      float: left;
-      width: 30%;
-      text-align: left;
-            }
-      .box3 {
-      float: left;
-      width: 30%;
-      text-align: right;
-      display: flex;
-      flex-direction: column;
+      .search-container form{
+        position: relative;
       }
-      .search-container1 {
-      float: right;
-      font-size: 17px;
-      border: none;
-      cursor: pointer;
-      border-radius: 20%;
-      margin-top:35px;
-      margin-right: 50px;
-      padding-bottom: 20px;
-    }
-    .search-container1 form{
-      position: relative;
-    }
-    .btn_search{
-      background-color: skyblue;
-      border: none;
-    
-    }
-    .btn_search i{
-      padding: 0;
-      font-size: 23px;
-    }
-    .search_input{
-      background-color: rgb(255, 196, 0);
-      border: none;
-      padding: 10px;
-    }
-     
-      .social_media-icon  {
-      padding: 10px;
-      font-size: 16px;
-      text-align: center;
-      text-decoration: none;
-      margin: 5px 5px;
-      border-radius: 50%;
-    }
-    
-    .social_media-icon:hover {
-        opacity: 0.7;
-    }
-    .fa-facebook {
-      background-color: gold;
-      color: white;
-    }
-    
-    .fa-twitter {
-      background: gold;
-      color: white;
-    }
-    .fa-instagram {
-      background: gold;
-      color: white;
-    }
-    .fa-whatsapp{
-     background: gold;
-      color: white;
-    }
-    section.su:after {
+      .btn_search{
+        background-color: skyblue;
+        border: none;
+        position: absolute;
+        top: 0;
+        right: -36;
+      }
+      .btn_search i{
+        padding: 0;
+        font-size: 13px;
+      }
+      .search_input{
+        background-color: rgb(255, 196, 0);
+        border: none;
+      padding: 5px;
+      height:35px;
+      width:135px;
+      }
+  .header::after {
+        display:block;
         content: "";
         clear: both;
-        display: block;
-    }
-    .suraj::after{
-      content: "";
-      clear: both;
-      display: block;
-    }
-    .newimg{
-      height: 200px;
-      width: 200px;
-      object-fit: cover;
-    }
-    .newimage{
-      height: 250px;
-      width: 350px;
-      object-fit: cover;
-    }
+  }
+  .test {
+    width: 100%;
+     padding: 0px;
+     height: 100%;
+     background-color: rgb(255, 196, 0);
+     color: white;
+     text-align: left;
+     font-size: 16px;
+     padding-right: 0px;
+     padding-left: 100px;
+     padding-top: 40px;
+     padding-bottom: 40px;
+   }
+   .test1 {
+    float: left;
+   width: 50%;
   
-  } 
+  }
+  .test2 {
+    float: right;
+    width: 50%;
+  }
+  .test::after{
+    content: "";
+    clear: both;
+    display: block;
+  }
+  
+  .add {
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    padding-left: 80px;
+    padding-right: 10px;
+    padding-top: 0px;
+  
+  }
+  .add1 {
+    float: left;
+    width: 50%;
+    margin-top: 100px;
+  }
+  .add2 {
+    float: right;
+    width: 50%;
+  }
+  .add::after {
+    display:block;
+    content: "";
+    clear: both;
+  }
+  .sum {
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    padding-left: 180px ;
+    padding-right: 100px;
+    margin-bottom: 100px;
+    margin-top: 0px;
+  }
+  .sum2 {
+    float: left;
+    width: 50%;
+    text-align: left;
+  }
+  .sum1 {
+    float: right;
+    width: 50%;
+    text-align: right;
+    margin-top: 100px;
+  }
+  .sum::after {
+    display:block;
+    content: "";
+    clear: both;
+  }
+  .div {
+    float: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 196, 0);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 50px ;
+    padding-right: 0px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+  }
+  .div11 {
+    float: left;
+    padding: 5px;
+    width: 30%;
+    text-align: center;
+  }
+  .div12 {
+    float: right;
+    width: 30%;
+    margin-right: 60px;
+  }
+  .div13 {
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding-left: 40px;
+  }
 
-  @media only screen and (max-width: 992px) {
+      .flex-container::after{
+        display:block;
+        content:"";
+        clear:both;
+      }
+      .div1 {
+    
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 100px;
+    padding-right:0px;
   
-    .header {
-          background-color: rgb(255, 174, 0);
-          color: white;
-          padding: 5px;
-          width:100%;
-          font-size: 15px;
-          padding-left: 0px;
-          padding-right: 50px;
-        }
-        .logo img{
-          position: absolute;
-          margin-top: 20px;
-        }
-        	
-    ul {
-      list-style-type: none;
-      padding: 10px;
-      overflow: hidden;
-      background-color: rgb(255, 174, 0);
-      display: block;
-    }
-    
-    li {
-      float: center;
-      margin:0px;
-      margin-bottom: 0px;
-      margin-top: -5px;
-      display: block;
-    }
-    
-    li a {
-      display: block;
-      color: white;
-      text-align: center;
-      text-decoration: none;
-    }
-        .search-container {
-          float: right;
-          font-size: 5px;
-          border: none;
-          cursor: pointer;
-          margin-right: 80px;
-          margin-bottom: 0px;
-          border-radius: 0%;
-          margin-top:25px;
-        }
-        .search-container form{
-          position: relative;
-        }
-        .btn_search{
-          background-color: skyblue;
-          border: none;
-          position: absolute;
-          top: 0;
-          right: -36;
-        }
-        .btn_search i{
-          padding: 0;
-          font-size: 13px;
-        }
-        .search_input{
-          background-color: rgb(255, 196, 0);
-          border: none;
-        padding: 5px;
-        }
-    .header::after {
-          display:block;
-          content: "";
-          clear: both;
-    }
-    .test {
-      width: 100%;
-       padding: 0px;
-       height: 100%;
-       background-color: rgb(255, 196, 0);
-       color: white;
-       text-align: left;
-       font-size: 20px;
-       padding-right: 0px;
-       padding-left: 100px;
-       padding-top: 40px;
-       padding-bottom: 40px;
-     }
-     .test1 {
-      float: left;
-     width: 50%;
-    
-    }
-    .test2 {
-      float: right;
-      width: 50%;
-    }
-    .newimage{
-      height: 300px;
-      width: 300px;
-    }
-    .test::after{
-      content: "";
-      clear: both;
-      display: block;
-    }
-    
-    .add {
-      float: left;
-      width: 100%;
-      height: 100%;
-      background-color: white;
-      color: black;
-      text-align: center;
-      font-size: 20px;
-      padding-left:100px ;
-      padding-right: 0px;
-      padding-bottom: 0px;
-      padding-top: 30px;
-    
-    }
-    .add1 {
-      float: left;
-      width: 50%;
-    padding-top: 50px;
-    }
-    .add2 {
-      float: right;
-      width: 50%;
+  }
+  .div21 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: left;
+   
   
-    }
-    .add::after {
-      display:block;
-      content: "";
-      clear: both;
-    }
-    .sum {
-      float: left;
-      width: 100%;
-      height: 100%;
-      background-color: white;
-      color: black;
-      text-align: center;
-      font-size: 20px;
-      padding-left: 180px ;
-      padding-right: 100px;
-      padding-bottom: 0px;
-      padding-top: 30px;
-    }
-    .sum2 {
-      float: left;
-      width: 50%;
-      text-align: left;
-    }
-    .sum1 {
-      float: right;
-      width: 50%;
-      text-align: right;
-    }
-    .sum::after {
-      display:block;
-      content: "";
-      clear: both;
-    }
-    .div {
-      float: center;
-      width: 100%;
-      height: 100%;
-      background-color: rgb(255, 196, 0);
-      color: white;
-      text-align: center;
-      font-size: 20px;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      padding-left: 50px ;
-      padding-right: 0px;
-      padding-bottom: 50px;
-      padding-top: 30px;
-    }
-    .div11 {
-      float: left;
-      padding: 5px;
-      width: 30%;
-      text-align: center;
-    }
-    .div12 {
-      float: right;
-      width: 30%;
-      margin-right: 60px;
-    }
-    .div13 {
-      float: left;
-      width: 30%;
-      text-align: center;
-      padding-left: 40px;
-    }
-
-        .flex-container::after{
-          display:block;
-          content:"";
-          clear:both;
-        }
-        .div1 {
+  }
+  .div22{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: left;
+  
+  }
+  .div23 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: left;
+  
+  }
+      .div1::after{
+        display:block;
+        content:"";
+        clear:both;
+      }
+   
+      .div4 {
+        height: 400px;
+        width: 100%;
+        background-color: rgb(255, 196, 0);
+        background-repeat: no-repeat;
+        color: white;
+        text-align: center;
+        font-size: 16px;
+        background-image: url("backimage.jpg");
+        background-size: cover;
+        background-position: center ;
+        padding-right: 100px;
+        padding-left: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      .div41 {
+    float: left;
+    width: 30%;
+    text-align: center;
+  
+  }
+  .div42 {
+    float: left;
+    width: 30%;
+    text-align: center;
+  
+  }
+  .div43 {
+    float: right;
+    width: 30%;
+    text-align: center;
+    padding-right: 100px;
+  }
+  .div4::after {
+    display:block;
+    content: "";
+    clear: both;
+  }
+  
+  .div3 {
+    float: center;
+    width: 100%;
+    background-color: rgb(255, 196, 0);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 80px ;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+  }
+  .div31 {
+    float: left;
+    padding: 5px;
+    width: 33.33%;
+    text-align: center;
+  }
+  .div32 {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+  }
+  .div33 {
+    float: right;
+    width: 33.33%;
+    text-align: center;
+  }
+  .div3::after {
+    content: "";
+    display:block;
+    clear: both;
+  }
       
-      width: 100%;
-      background-color: white;
-      color: black;
-      text-align: center;
-      font-size: 20px;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      padding-left: 100px;
-      padding-right: 0px;
+  .img {
+    border-radius: 8px;
+    float: center;
+    height: 100px;
+    width: 100px;
+  }
+  video {
+    float: right;
+    margin-right: 80px;
+    border-radius: 8px;
+    margin-top: 40px;
+    height: 300px;
+    width: 250px;
+  }
+  button:hover {
+    background-color: rgb(32, 185, 236);
+  }
+  
+  .button {
+    background-color: rgb(255, 196, 0);
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 10px 22px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
     
+  }
+  .button1 {
+    background-color: rgb(60, 151, 187);
+    color: white;
+    border: none;
+    border-radius: 32px;
+    padding: 10px 22px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .fa {
+    padding: 10px;
+    font-size: 16px;
+   
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background-color: white;
+    color: black;
+  }
+  
+  .fa-twitter {
+    background: white;
+    color: black;
+  }
+  .fa-instagram {
+    background: white;
+    color: black;
+  }
+  .fa-whatsapp{
+   background: white;
+    color: black;
+  }
+  
+  .h {
+    float: center;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 100px ;
+    padding-right: 0px;
+  }
+  .h1 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: left;
+  
+  }
+  .h2 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: left;
+  
+  }
+  .h3 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: left;
+  }
+  .h::after {
+    display:block;
+    content: "";
+    clear: both;
+  }
+  .footer {
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding-left:100px ;
+    padding-right: 50px;
+    padding-top: 35px;
+          }
+    .box1 {
+    float: left;
+    width: 30%;
+    text-align: left;
     }
-    .div21 {
-      float: left;
-      width: 30%;
-      padding: 10px;
-      text-align: left;
-     
-    
+  
+    .box2 {
+    float: left;
+    width: 30%;
+    text-align: left;
+          }
+    .box3 {
+    float: left;
+    width: 30%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
     }
-    .div22{
-      float: left;
-      width: 30%;
-      padding: 10px;
-      text-align: left;
-    
-    }
-    .div23 {
-      float: left;
-      width: 30%;
-      padding: 10px;
-      text-align: left;
-    
-    }
-        .div1::after{
-          display:block;
-          content:"";
-          clear:both;
-        }
-     
-        .div4 {
-          height: 400px;
-          width: 100%;
-          background-color: rgb(255, 196, 0);
-          background-repeat: no-repeat;
-          color: white;
-          text-align: center;
-          font-size: 22px;
-          background-image: url("backimage.jpg");
-          background-size: cover;
-          background-position: center ;
-          padding-right: 100px;
-          padding-left: 100px;
-          padding-top: 50px;
-          padding-bottom: 50px;
-        }
-        .div41 {
-      float: left;
-      width: 30%;
-      text-align: center;
-    
-    }
-    .div42 {
-      float: left;
-      width: 30%;
-      text-align: center;
-    
-    }
-    .div43 {
-      float: right;
-      width: 30%;
-      text-align: center;
-      padding-right: 100px;
-    }
-    .div4::after {
-      display:block;
+    .search-container1 {
+    float: right;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20%;
+    margin-top:35px;
+    margin-right: 50px;
+    padding-bottom: 20px;
+  }
+  .search-container1 form{
+    position: relative;
+  }
+  .btn_search{
+    background-color: skyblue;
+    border: none;
+  
+  }
+  .btn_search i{
+    padding: 0;
+    font-size: 23px;
+  }
+  .search_input{
+    background-color: rgb(255, 196, 0);
+    border: none;
+    padding: 10px;
+  }
+   
+    .social_media-icon  {
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+  }
+  
+  .social_media-icon:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background-color: gold;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: gold;
+    color: white;
+  }
+  .fa-instagram {
+    background: gold;
+    color: white;
+  }
+  .fa-whatsapp{
+   background: gold;
+    color: white;
+  }
+  section.su:after {
       content: "";
       clear: both;
-    }
-    
-    .div3 {
-      float: center;
-      width: 100%;
-      background-color: rgb(255, 196, 0);
-      color: white;
-      text-align: center;
-      font-size: 20px;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      padding-left: 30px ;
-      padding-right: 100px;
-      padding-bottom: 50px;
-      padding-top: 30px;
-    }
-    .div31 {
-      float: left;
-      padding: 5px;
-      width: 33.33%;
-      text-align: center;
-    }
-    .div32 {
-      float: left;
-      width: 33.33%;
-      text-align: center;
-    }
-    .div33 {
-      float: right;
-      width: 33.33%;
-      text-align: center;
-    }
-    .div3::after {
-      content: "";
-      display:block;
-      clear: both;
-    }
+      display: block;
+  }
+  .suraj::after{
+    content: "";
+    clear: both;
+    display: block;
+  }
+   .newimg{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+  }
+  .newimage{
+    height: 210px;
+    width: 250px;
+    object-fit: cover;
+  }
+}  
+
+
+ @media only screen and (max-width: 576px) {
+
+  .header {
+        background-color: rgb(255, 174, 0);
+        color: white;
+        width:100%;
+        font-size: 12px;
+        padding-left: 0px;
+        padding-right: 100px;
+      }
+      .logo img{
+        position: none;
+        margin-top: 10px;
+        height: 55px;
+        width: 80px;
+        margin-left: 50px;
+
+      }
         
-    img {
-      border-radius: 8px;
-      float: center;
-    }
-    video {
-      float: right;
-      margin-right: 80px;
-      border-radius: 8px;
-      margin-top: 40px;
-    }
-    button:hover {
-      background-color: rgb(32, 185, 236);
-    }
-    
-    .button {
-      background-color: rgb(255, 196, 0);
-      color: white;
-      border: 2px solid white;
-      border-radius: 4px;
-      padding: 10px 22px;
-      text-align: center;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-      
-    }
-    .button1 {
-      background-color: rgb(60, 151, 187);
-      color: white;
-      border: none;
-      border-radius: 32px;
-      padding: 10px 22px;
-      text-align: center;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-    }
-    
-    .fa {
-      padding: 15px;
-      font-size: 16px;
-     
-      text-align: center;
-      text-decoration: none;
-      margin: 5px 5px;
-      border-radius: 50%;
-    }
-    
-    .fa:hover {
-        opacity: 0.7;
-    }
-    .fa-facebook {
-      background-color: white;
-      color: black;
-    }
-    
-    .fa-twitter {
-      background: white;
-      color: black;
-    }
-    .fa-instagram {
-      background: white;
-      color: black;
-    }
-    .fa-whatsapp{
-     background: white;
-      color: black;
-    }
-    
-    .h {
-      float: center;
-      width: 100%;
-      background-color: white;
-      color: black;
-      text-align: center;
-      font-size: 15px;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      padding-left: 100px ;
-      padding-right: 0px;
-    }
-    .h1 {
-      float: left;
-      width: 30%;
-      padding: 10px;
-      text-align: left;
-    
-    }
-    .h2 {
-      float: left;
-      width: 30%;
-      padding: 10px;
-      text-align: left;
-    
-    }
-    .h3 {
-      float: left;
-      width: 30%;
-      padding: 10px;
-      text-align: left;
-    }
-    .h::after {
-      display:block;
-      content: "";
-      clear: both;
-    }
-    .footer {
-      width: 100%;
-      height: 400px;
-      background-color: black;
-      color: white;
-      text-align: center;
-      font-size: 15px;
-      padding-left:100px ;
-      padding-right: 50px;
-      padding-top: 35px;
-            }
-      .box1 {
-      float: left;
-      width: 30%;
-      text-align: left;
+  ul {
+    list-style-type: none;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgb(255, 174, 0);
+    display: block;
+  }
+  
+  li {
+    float: center;
+    margin:0px;
+    margin-bottom: 0px;
+    margin-top: -5px;
+    display: block;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+      .search-container {
+        float: right;
+        font-size: 5px;
+        border: none;
+        cursor: pointer;
+        margin-right: -25px;
+        margin-bottom: 0px;
+        border-radius: 0%;
+        margin-top:25px;
       }
-    
-      .box2 {
-      float: left;
-      width: 30%;
-      text-align: left;
-            }
-      .box3 {
-      float: left;
-      width: 30%;
-      text-align: right;
-      display: flex;
-      flex-direction: column;
+      .search-container form{
+        position: relative;
       }
-      .search-container1 {
-      float: right;
-      font-size: 17px;
-      border: none;
-      cursor: pointer;
-      border-radius: 20%;
-      margin-top:35px;
-      margin-right: 50px;
-      padding-bottom: 20px;
-    }
-    .search-container1 form{
-      position: relative;
-    }
-    .btn_search{
-      background-color: skyblue;
-      border: none;
-    
-    }
-    .btn_search i{
-      padding: 0;
-      font-size: 23px;
-    }
-    .search_input{
-      background-color: rgb(255, 196, 0);
-      border: none;
-      padding: 10px;
-    }
-     
-      .social_media-icon  {
-      padding: 10px;
-      font-size: 16px;
-      text-align: center;
-      text-decoration: none;
-      margin: 5px 5px;
-      border-radius: 50%;
-    }
-    
-    .social_media-icon:hover {
-        opacity: 0.7;
-    }
-    .fa-facebook {
-      background-color: gold;
-      color: white;
-    }
-    
-    .fa-twitter {
-      background: gold;
-      color: white;
-    }
-    .fa-instagram {
-      background: gold;
-      color: white;
-    }
-    .fa-whatsapp{
-     background: gold;
-      color: white;
-    }
-    section.su:after {
+      .btn_search{
+        background-color: skyblue;
+        border: none;
+        position: absolute;
+        top: 0;
+        right: -36;
+      }
+      .btn_search i{
+        padding: 0;
+        font-size: 13px;
+      }
+      .search_input{
+        background-color: rgb(255, 196, 0);
+        border: none;
+      padding: 5px;
+      height: 15px;
+      width: 100px;
+      }
+  .header::after {
+        display:block;
         content: "";
         clear: both;
-        display: block;
+  }
+  .test {
+    width: 100%;
+     padding: 0px;
+     height: 100%;
+     background-color: rgb(255, 196, 0);
+     color: white;
+     text-align: left;
+     font-size: 16px;
+     padding-left: 150px;
+     padding-right: 150px;
+     padding-top: 50px;
+     padding-bottom: 50px;
+   }
+   
+   .test1 {
+   width: 100%;
+  
+  }
+  .test2 {
+    float: left;
+    width: 100%;
+
+  }
+  .test::after{
+    content: "";
+    clear: both;
+    display: block;
+  }
+  
+  .add {
+    float: unset;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    padding-left: 80px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+  
+  }
+  .add1 {
+    width: 100%;
+    text-align: left;
+    padding-right: 10px;
+    padding-left: 60px;
+   
+  }
+  .add2{
+    width: 100%;
+    text-align: left;
+    padding-right: 80px;
+    padding-left: 10px;
     }
-    .suraj::after{
+
+  .add::after {
+    display:block;
+    content: "";
+    clear: both;
+  }
+  .sum {
+    float: unset;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    padding-left: 100px;
+    padding-right: 80px;
+    margin-bottom: 80px;
+    margin-top: 0px;
+  }
+  .sum1 {
+    width: 100%;
+    text-align: left;
+    padding-right: 10px;
+    padding-left: 50px;
+   
+  }
+  .sum2{
+    width: 100%;
+    text-align: center;
+    padding-left: 100px;
+    }
+  .sum::after {
+    display:block;
+    content: "";
+    clear: both;
+  }
+  .div {
+    float: unset;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 196, 0);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .div11 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+   
+  }
+  .div12{
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+  
+  }
+  .div13 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  
+  }
+
+      .flex-container::after{
+        display:block;
+        content:"";
+        clear:both;
+      }
+      .div1 {
+    float: unset;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  
+  }
+  .div21 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+   
+  
+  }
+  .div22{
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  
+  }
+  .div23 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  
+  }
+      .div1::after{
+        display:block;
+        content:"";
+        clear:both;
+      }
+   
+      .div4 {
+        height: 680px;
+        width: 100%;
+        background-color: rgb(255, 196, 0);
+        background-repeat: no-repeat;
+        color: white;
+        text-align: center;
+        font-size: 16px;
+        background-image: url("backimage.jpg");
+        background-size: cover;
+        background-position: center ;
+        padding-right: 100px;
+        padding-left: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      .div41 {
+    float: left;
+    width: 100%;
+    text-align: center;
+  
+  }
+  .div42 {
+    float: left;
+    width: 100%;
+    text-align: center;
+  
+  }
+  .div43 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-left: 90px;
+  }
+  .div4::after {
+    display:block;
+    content: "";
+    clear: both;
+  }
+  
+  .div3 {
+    float: unset;
+    width: 100%;
+    background-color: rgb(255, 196, 0);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+ 
+  .div31 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+   
+  
+  }
+  .div32{
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  
+  }
+  .div33 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  
+  }
+  .div3::after {
+    content: "";
+    display:block;
+    clear: both;
+  }
+      
+  .img {
+    border-radius: 8px;
+    float: center;
+    height: 100px;
+    width: 100px;
+  }
+  video {
+    float: right;
+    margin-right: 80px;
+    border-radius: 8px;
+    margin-top: 40px;
+    height: 300px;
+    width: 250px;
+  }
+  button:hover {
+    background-color: rgb(32, 185, 236);
+  }
+  
+  .button {
+    background-color: rgb(255, 196, 0);
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 10px 22px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+  }
+  .button1 {
+    background-color: rgb(60, 151, 187);
+    color: white;
+    border: none;
+    border-radius: 32px;
+    padding: 10px 22px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .fa {
+    padding: 10px;
+    font-size: 16px;
+   
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background-color: white;
+    color: black;
+  }
+  
+  .fa-twitter {
+    background: white;
+    color: black;
+  }
+  .fa-instagram {
+    background: white;
+    color: black;
+  }
+  .fa-whatsapp{
+   background: white;
+    color: black;
+  }
+  
+  .h {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 50px ;
+    padding-right: 50px;
+  }
+  .h1 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  
+  }
+  .h2 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  
+  }
+  .h3 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+  .h::after {
+    display:block;
+    content: "";
+    clear: both;
+  }
+  .footer {
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding-left: 50px ;
+    padding-right: 50px;
+    padding-top: 50px;
+          }
+    .box1 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    }
+  
+    .box2 {
+    float: left;
+    width: 100%;
+    text-align: center;
+          }
+    .box3 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    }
+    .search-container1 {
+    float: right;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20%;
+    margin-top:36px;
+    margin-right: 50px;
+    padding-bottom: 20px;
+  }
+  .search-container1 form{
+    position: relative;
+  }
+  .btn_search{
+    background-color: skyblue;
+    border: none;
+  
+  }
+  .btn_search i{
+    padding: 0;
+    font-size: 13px;
+  }
+  .search_input{
+    background-color: rgb(255, 196, 0);
+    border: none;
+    padding: 10px;
+    height:25px;
+    width:100px;
+  }
+   
+    .social_media-icon  {
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+  }
+  
+  .social_media-icon:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background-color: gold;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: gold;
+    color: white;
+  }
+  .fa-instagram {
+    background: gold;
+    color: white;
+  }
+  .fa-whatsapp{
+   background: gold;
+    color: white;
+  }
+  section.su:after {
       content: "";
       clear: both;
       display: block;
+  }
+  .suraj::after{
+    content: "";
+    clear: both;
+    display: block;
+  }
+   .newimg{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+  .newimage{
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+    padding-right: 0px;
+  }
+  .video {
+    width:300px; 
+    height:250px; 
+    outline:none;
+    margin-left: auto;
+    margin-right:auto;
     }
-    .newimg{
-      height: 200px;
-      width: 200px;
-      object-fit: cover;
-    }
+}
+
+
+ @media only screen and (max-width: 360px) {
+
+  .header {
+        background-color: rgb(255, 174, 0);
+        color: white;
+        padding: 5px;
+        width:100%;
+        font-size: 15px;
+        padding-left: 0px;
+        padding-right: 0;
+      }
+      .logo img{
+        width: 100%;
+        position: static;
+        margin: 0;
+        height: 90px;
+        width: 120px;
+        float: unset;
+      }
+      .logo a{
+        width: 100%;
+        display:block;
+        float: unset;
+        text-align: center;
+
+      }
+      
+        
+  ul {
+    list-style-type: none;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgb(255, 174, 0);
+    display: block;
+  }
   
-  } 
-
-
-    @media only screen and (max-width: 768px) {
+  li {
+    width: 100%;
+    float: center;
+    margin:0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: block;
+  }
   
-    .header {
-          background-color: rgb(255, 174, 0);
-          color: white;
-          padding: 5px;
-          width:100%;
-          font-size: 15px;
-          padding-left: 0px;
-          padding-right: 30px;
-        }
-        .logo img{
-          position: absolute;
-          margin-top: 15px;
-          height: 55px;
-          width: 150px;
-          margin-left: 50px;
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+      .search-container {
+        width: 100%;
+        float: unset;
+        font-size: 5px;
+        border: none;
+        cursor: pointer;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        border-radius: 0%;
+        margin-top:25px;
+        padding-left:0;
+        text-align: center;
+      }
+      .search-container form{
+        position: relative;
 
-        }
-        	
-    ul {
-      list-style-type: none;
-      padding: 10px;
-      overflow: hidden;
-      background-color: rgb(255, 174, 0);
-      display: block;
-    }
-    
-    li {
-      float: center;
-      margin:0px;
-      margin-bottom: 0px;
-      margin-top: -5px;
-      display: block;
-    }
-    
-    li a {
-      display: block;
-      color: white;
-      text-align: center;
-      text-decoration: none;
-    }
-        .search-container {
-          float: right;
-          font-size: 5px;
-          border: none;
-          cursor: pointer;
-          margin-right: 80px;
-          margin-bottom: 0px;
-          border-radius: 0%;
-          margin-top:25px;
-        }
-        .search-container form{
-          position: relative;
-        }
-        .btn_search{
-          background-color: skyblue;
-          border: none;
-          position: absolute;
-          top: 0;
-          right: -36;
-        }
-        .btn_search i{
-          padding: 0;
-          font-size: 13px;
-        }
-        .search_input{
-          background-color: rgb(255, 196, 0);
-          border: none;
+      }
+      .btn_search{
+        background-color: skyblue;
+        border: none;
+        position: absolute;
+        top: 0;
+        right: -36;
+      }
+      .btn_search i{
+        padding: 0;
+        font-size: 13px;
+      }
+      .search_input{
+        background-color: rgb(255, 196, 0);
+        border: none;
         padding: 5px;
         height:35px;
-        width:135px;
-        }
-    .header::after {
-          display:block;
-          content: "";
-          clear: both;
-    }
-    .test {
-      width: 100%;
-       padding: 0px;
-       height: 100%;
-       background-color: rgb(255, 196, 0);
-       color: white;
-       text-align: left;
-       font-size: 16px;
-       padding-right: 0px;
-       padding-left: 100px;
-       padding-top: 40px;
-       padding-bottom: 40px;
-     }
-     .test1 {
-      float: left;
-     width: 50%;
-    
-    }
-    .test2 {
-      float: right;
-      width: 50%;
-    }
-    .test::after{
-      content: "";
-      clear: both;
-      display: block;
-    }
-    
-    .add {
-      float: left;
-      width: 100%;
-      height: 100%;
-      background-color: white;
-      color: black;
-      text-align: center;
-      font-size: 16px;
-      padding-left: 80px;
-      padding-right: 10px;
-      padding-top: 0px;
-    
-    }
-    .add1 {
-      float: left;
-      width: 50%;
-      margin-top: 100px;
-    }
-    .add2 {
-      float: right;
-      width: 50%;
-    }
-    .add::after {
-      display:block;
-      content: "";
-      clear: both;
-    }
-    .sum {
-      float: left;
-      width: 100%;
-      height: 100%;
-      background-color: white;
-      color: black;
-      text-align: center;
-      font-size: 16px;
-      padding-left: 180px ;
-      padding-right: 100px;
-      margin-bottom: 100px;
-      margin-top: 0px;
-    }
-    .sum2 {
-      float: left;
-      width: 50%;
-      text-align: left;
-    }
-    .sum1 {
-      float: right;
-      width: 50%;
-      text-align: right;
-      margin-top: 100px;
-    }
-    .sum::after {
-      display:block;
-      content: "";
-      clear: both;
-    }
-    .div {
-      float: center;
-      width: 100%;
-      height: 100%;
-      background-color: rgb(255, 196, 0);
-      color: white;
-      text-align: center;
-      font-size: 20px;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      padding-left: 50px ;
-      padding-right: 0px;
-      padding-bottom: 50px;
-      padding-top: 30px;
-    }
-    .div11 {
-      float: left;
-      padding: 5px;
-      width: 30%;
-      text-align: center;
-    }
-    .div12 {
-      float: right;
-      width: 30%;
-      margin-right: 60px;
-    }
-    .div13 {
-      float: left;
-      width: 30%;
-      text-align: center;
-      padding-left: 40px;
-    }
-
-        .flex-container::after{
-          display:block;
-          content:"";
-          clear:both;
-        }
-        .div1 {
-      
-      width: 100%;
-      background-color: white;
-      color: black;
-      text-align: center;
-      font-size: 16px;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      padding-left: 100px;
-      padding-right:0px;
-    
-    }
-    .div21 {
-      float: left;
-      width: 30%;
-      padding: 10px;
-      text-align: left;
-     
-    
-    }
-    .div22{
-      float: left;
-      width: 30%;
-      padding: 10px;
-      text-align: left;
-    
-    }
-    .div23 {
-      float: left;
-      width: 30%;
-      padding: 10px;
-      text-align: left;
-    
-    }
-        .div1::after{
-          display:block;
-          content:"";
-          clear:both;
-        }
-     
-        .div4 {
-          height: 400px;
-          width: 100%;
-          background-color: rgb(255, 196, 0);
-          background-repeat: no-repeat;
-          color: white;
-          text-align: center;
-          font-size: 16px;
-          background-image: url("backimage.jpg");
-          background-size: cover;
-          background-position: center ;
-          padding-right: 100px;
-          padding-left: 100px;
-          padding-top: 50px;
-          padding-bottom: 50px;
-        }
-        .div41 {
-      float: left;
-      width: 30%;
-      text-align: center;
-    
-    }
-    .div42 {
-      float: left;
-      width: 30%;
-      text-align: center;
-    
-    }
-    .div43 {
-      float: right;
-      width: 30%;
-      text-align: center;
-      padding-right: 100px;
-    }
-    .div4::after {
-      display:block;
-      content: "";
-      clear: both;
-    }
-    
-    .div3 {
-      float: center;
-      width: 100%;
-      background-color: rgb(255, 196, 0);
-      color: white;
-      text-align: center;
-      font-size: 16px;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      padding-left: 80px ;
-      padding-right: 150px;
-      padding-bottom: 50px;
-      padding-top: 30px;
-    }
-    .div31 {
-      float: left;
-      padding: 5px;
-      width: 33.33%;
-      text-align: center;
-    }
-    .div32 {
-      float: left;
-      width: 33.33%;
-      text-align: center;
-    }
-    .div33 {
-      float: right;
-      width: 33.33%;
-      text-align: center;
-    }
-    .div3::after {
-      content: "";
-      display:block;
-      clear: both;
-    }
-        
-    .img {
-      border-radius: 8px;
-      float: center;
-      height: 100px;
-      width: 100px;
-    }
-    video {
-      float: right;
-      margin-right: 80px;
-      border-radius: 8px;
-      margin-top: 40px;
-      height: 300px;
-      width: 250px;
-    }
-    button:hover {
-      background-color: rgb(32, 185, 236);
-    }
-    
-    .button {
-      background-color: rgb(255, 196, 0);
-      color: white;
-      border: 2px solid white;
-      border-radius: 4px;
-      padding: 10px 22px;
-      text-align: center;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-      
-    }
-    .button1 {
-      background-color: rgb(60, 151, 187);
-      color: white;
-      border: none;
-      border-radius: 32px;
-      padding: 10px 22px;
-      text-align: center;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-    }
-    
-    .fa {
-      padding: 10px;
-      font-size: 16px;
-     
-      text-align: center;
-      text-decoration: none;
-      margin: 5px 5px;
-      border-radius: 50%;
-    }
-    
-    .fa:hover {
-        opacity: 0.7;
-    }
-    .fa-facebook {
-      background-color: white;
-      color: black;
-    }
-    
-    .fa-twitter {
-      background: white;
-      color: black;
-    }
-    .fa-instagram {
-      background: white;
-      color: black;
-    }
-    .fa-whatsapp{
-     background: white;
-      color: black;
-    }
-    
-    .h {
-      float: center;
-      width: 100%;
-      background-color: white;
-      color: black;
-      text-align: center;
-      font-size: 15px;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      padding-left: 100px ;
-      padding-right: 0px;
-    }
-    .h1 {
-      float: left;
-      width: 30%;
-      padding: 10px;
-      text-align: left;
-    
-    }
-    .h2 {
-      float: left;
-      width: 30%;
-      padding: 10px;
-      text-align: left;
-    
-    }
-    .h3 {
-      float: left;
-      width: 30%;
-      padding: 10px;
-      text-align: left;
-    }
-    .h::after {
-      display:block;
-      content: "";
-      clear: both;
-    }
-    .footer {
-      width: 100%;
-      height: 350px;
-      background-color: black;
-      color: white;
-      text-align: center;
-      font-size: 12px;
-      padding-left:100px ;
-      padding-right: 50px;
-      padding-top: 35px;
-            }
-      .box1 {
-      float: left;
-      width: 30%;
-      text-align: left;
+        width:100px;
       }
-    
-      .box2 {
-      float: left;
-      width: 30%;
-      text-align: left;
-            }
-      .box3 {
-      float: left;
-      width: 30%;
-      text-align: right;
-      display: flex;
-      flex-direction: column;
-      }
-      .search-container1 {
-      float: right;
-      font-size: 17px;
-      border: none;
-      cursor: pointer;
-      border-radius: 20%;
-      margin-top:35px;
-      margin-right: 50px;
-      padding-bottom: 20px;
-    }
-    .search-container1 form{
-      position: relative;
-    }
-    .btn_search{
-      background-color: skyblue;
-      border: none;
-    
-    }
-    .btn_search i{
-      padding: 0;
-      font-size: 23px;
-    }
-    .search_input{
-      background-color: rgb(255, 196, 0);
-      border: none;
-      padding: 10px;
-    }
      
-      .social_media-icon  {
-      padding: 5px;
-      font-size: 16px;
-      text-align: center;
-      text-decoration: none;
-      margin: 5px 5px;
-      border-radius: 50%;
-    }
-    
-    .social_media-icon:hover {
-        opacity: 0.7;
-    }
-    .fa-facebook {
-      background-color: gold;
-      color: white;
-    }
-    
-    .fa-twitter {
-      background: gold;
-      color: white;
-    }
-    .fa-instagram {
-      background: gold;
-      color: white;
-    }
-    .fa-whatsapp{
-     background: gold;
-      color: white;
-    }
-    section.su:after {
+  .header::after {
         content: "";
         clear: both;
-        display: block;
-    }
-    .suraj::after{
-      content: "";
-      clear: both;
-      display: block;
-    }
-     .newimg{
-      height: 150px;
-      width: 150px;
-      object-fit: cover;
-    }
-    .newimage{
-      height: 210px;
-      width: 250px;
-      object-fit: cover;
-    }
-  }  
-
-
-   @media only screen and (max-width: 576px) {
-  
-    .header {
-          background-color: rgb(255, 174, 0);
-          color: white;
-          width:100%;
-          font-size: 12px;
-          padding-left: 0px;
-          padding-right: 100px;
-        }
-        .logo img{
-          position: none;
-          margin-top: 10px;
-          height: 55px;
-          width: 80px;
-          margin-left: 50px;
-
-        }
-        	
-    ul {
-      list-style-type: none;
-      padding: 10px;
-      overflow: hidden;
-      background-color: rgb(255, 174, 0);
-      display: block;
-    }
-    
-    li {
-      float: center;
-      margin:0px;
-      margin-bottom: 0px;
-      margin-top: -5px;
-      display: block;
-    }
-    
-    li a {
-      display: block;
-      color: white;
-      text-align: center;
-      text-decoration: none;
-    }
-        .search-container {
-          float: right;
-          font-size: 5px;
-          border: none;
-          cursor: pointer;
-          margin-right: -25px;
-          margin-bottom: 0px;
-          border-radius: 0%;
-          margin-top:25px;
-        }
-        .search-container form{
-          position: relative;
-        }
-        .btn_search{
-          background-color: skyblue;
-          border: none;
-          position: absolute;
-          top: 0;
-          right: -36;
-        }
-        .btn_search i{
-          padding: 0;
-          font-size: 13px;
-        }
-        .search_input{
-          background-color: rgb(255, 196, 0);
-          border: none;
-        padding: 5px;
-        height: 15px;
-        width: 100px;
-        }
-    .header::after {
-          display:block;
-          content: "";
-          clear: both;
-    }
-    .test {
-      width: 100%;
-       padding: 0px;
-       height: 100%;
-       background-color: rgb(255, 196, 0);
-       color: white;
-       text-align: left;
-       font-size: 16px;
-       padding-left: 150px;
-       padding-right: 150px;
-       padding-top: 50px;
-       padding-bottom: 50px;
-     }
-     
-     .test1 {
-     width: 100%;
-    
-    }
-    .test2 {
-      float: left;
-      width: 100%;
-
-    }
-    .test::after{
-      content: "";
-      clear: both;
-      display: block;
-    }
-    
-    .add {
-      float: unset;
-      width: 100%;
-      height: 100%;
-      background-color: white;
-      color: black;
-      text-align: center;
-      font-size: 16px;
-      padding-left: 80px;
-      padding-right: 50px;
-      padding-bottom: 50px;
-    
-    }
-    .add1 {
-      width: 100%;
-      text-align: left;
-      padding-right: 10px;
-      padding-left: 60px;
-     
-    }
-    .add2{
-      width: 100%;
-      text-align: left;
-      padding-right: 80px;
-      padding-left: 10px;
-      }
-  
-    .add::after {
-      display:block;
-      content: "";
-      clear: both;
-    }
-    .sum {
-      float: unset;
-      width: 100%;
-      height: 100%;
-      background-color: white;
-      color: black;
-      text-align: center;
-      font-size: 16px;
-      padding-left: 100px;
-      padding-right: 80px;
-      margin-bottom: 80px;
-      margin-top: 0px;
-    }
-    .sum1 {
-      width: 100%;
-      text-align: left;
-      padding-right: 10px;
-      padding-left: 50px;
-     
-    }
-    .sum2{
-      width: 100%;
-      text-align: center;
-      padding-left: 100px;
-      }
-    .sum::after {
-      display:block;
-      content: "";
-      clear: both;
-    }
-    .div {
-      float: unset;
-      width: 100%;
-      height: 100%;
-      background-color: rgb(255, 196, 0);
-      color: white;
-      text-align: center;
-      font-size: 16px;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      padding-left: 50px;
-      padding-right: 50px;
-    }
-    .div11 {
-      float: left;
-      width: 100%;
-      padding: 10px;
-      text-align: center;
-     
-    }
-    .div12{
-      float: left;
-      width: 100%;
-      padding: 10px;
-      text-align: center;
-      padding: 0px;
-      margin: 0px;
-    
-    }
-    .div13 {
-      float: left;
-      width: 100%;
-      padding: 10px;
-      text-align: center;
-    
-    }
-
-        .flex-container::after{
-          display:block;
-          content:"";
-          clear:both;
-        }
-        .div1 {
-      float: unset;
-      width: 100%;
-      background-color: white;
-      color: black;
-      text-align: center;
-      font-size: 16px;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      padding-left: 50px;
-      padding-right: 50px;
-    
-    }
-    .div21 {
-      float: left;
-      width: 100%;
-      padding: 10px;
-      text-align: center;
-     
-    
-    }
-    .div22{
-      float: left;
-      width: 100%;
-      padding: 10px;
-      text-align: center;
-    
-    }
-    .div23 {
-      float: left;
-      width: 100%;
-      padding: 10px;
-      text-align: center;
-    
-    }
-        .div1::after{
-          display:block;
-          content:"";
-          clear:both;
-        }
-     
-        .div4 {
-          height: 680px;
-          width: 100%;
-          background-color: rgb(255, 196, 0);
-          background-repeat: no-repeat;
-          color: white;
-          text-align: center;
-          font-size: 16px;
-          background-image: url("backimage.jpg");
-          background-size: cover;
-          background-position: center ;
-          padding-right: 100px;
-          padding-left: 100px;
-          padding-top: 50px;
-          padding-bottom: 50px;
-        }
-        .div41 {
-      float: left;
-      width: 100%;
-      text-align: center;
-    
-    }
-    .div42 {
-      float: left;
-      width: 100%;
-      text-align: center;
-    
-    }
-    .div43 {
-      float: left;
-      width: 100%;
-      text-align: center;
-      padding-left: 90px;
-    }
-    .div4::after {
-      display:block;
-      content: "";
-      clear: both;
-    }
-    
-    .div3 {
-      float: unset;
-      width: 100%;
-      background-color: rgb(255, 196, 0);
-      color: white;
-      text-align: center;
-      font-size: 20px;
-      padding-left: 50px;
-      padding-right: 50px;
-    }
-   
-    .div31 {
-      float: left;
-      width: 100%;
-      padding: 10px;
-      text-align: center;
-     
-    
-    }
-    .div32{
-      float: left;
-      width: 100%;
-      padding: 10px;
-      text-align: center;
-    
-    }
-    .div33 {
-      float: left;
-      width: 100%;
-      padding: 10px;
-      text-align: center;
-    
-    }
-    .div3::after {
-      content: "";
-      display:block;
-      clear: both;
-    }
-        
-    .img {
-      border-radius: 8px;
-      float: center;
-      height: 100px;
-      width: 100px;
-    }
-    video {
-      float: right;
-      margin-right: 80px;
-      border-radius: 8px;
-      margin-top: 40px;
-      height: 300px;
-      width: 250px;
-    }
-    button:hover {
-      background-color: rgb(32, 185, 236);
-    }
-    
-    .button {
-      background-color: rgb(255, 196, 0);
-      color: white;
-      border: 2px solid white;
-      border-radius: 4px;
-      padding: 10px 22px;
-      text-align: center;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-      
-    }
-    .button1 {
-      background-color: rgb(60, 151, 187);
-      color: white;
-      border: none;
-      border-radius: 32px;
-      padding: 10px 22px;
-      text-align: center;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-    }
-    
-    .fa {
-      padding: 10px;
-      font-size: 16px;
-     
-      text-align: center;
-      text-decoration: none;
-      margin: 5px 5px;
-      border-radius: 50%;
-    }
-    
-    .fa:hover {
-        opacity: 0.7;
-    }
-    .fa-facebook {
-      background-color: white;
-      color: black;
-    }
-    
-    .fa-twitter {
-      background: white;
-      color: black;
-    }
-    .fa-instagram {
-      background: white;
-      color: black;
-    }
-    .fa-whatsapp{
-     background: white;
-      color: black;
-    }
-    
-    .h {
-      width: 100%;
-      height: 100%;
-      background-color: white;
-      color: black;
-      text-align: center;
-      font-size: 15px;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      padding-left: 50px ;
-      padding-right: 50px;
-    }
-    .h1 {
-      float: left;
-      width: 100%;
-      padding: 10px;
-      text-align: center;
-    
-    }
-    .h2 {
-      float: left;
-      width: 100%;
-      padding: 10px;
-      text-align: center;
-    
-    }
-    .h3 {
-      float: left;
-      width: 100%;
-      padding: 10px;
-      text-align: center;
-    }
-    .h::after {
-      display:block;
-      content: "";
-      clear: both;
-    }
-    .footer {
-      width: 100%;
-      height: 700px;
-      background-color: black;
-      color: white;
-      text-align: center;
-      font-size: 12px;
-      padding-left: 50px ;
-      padding-right: 50px;
-      padding-top: 50px;
-            }
-      .box1 {
-      float: left;
-      width: 100%;
-      text-align: center;
-      }
-    
-      .box2 {
-      float: left;
-      width: 100%;
-      text-align: center;
-            }
-      .box3 {
-      float: left;
-      width: 100%;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      }
-      .search-container1 {
-      float: right;
-      font-size: 12px;
-      border: none;
-      cursor: pointer;
-      border-radius: 20%;
-      margin-top:36px;
-      margin-right: 50px;
-      padding-bottom: 20px;
-    }
-    .search-container1 form{
-      position: relative;
-    }
-    .btn_search{
-      background-color: skyblue;
-      border: none;
-    
-    }
-    .btn_search i{
-      padding: 0;
-      font-size: 13px;
-    }
-    .search_input{
-      background-color: rgb(255, 196, 0);
-      border: none;
-      padding: 10px;
-      height:25px;
-      width:100px;
-    }
-     
-      .social_media-icon  {
-      padding: 10px;
-      font-size: 16px;
-      text-align: center;
-      text-decoration: none;
-      margin: 5px 5px;
-      border-radius: 50%;
-    }
-    
-    .social_media-icon:hover {
-        opacity: 0.7;
-    }
-    .fa-facebook {
-      background-color: gold;
-      color: white;
-    }
-    
-    .fa-twitter {
-      background: gold;
-      color: white;
-    }
-    .fa-instagram {
-      background: gold;
-      color: white;
-    }
-    .fa-whatsapp{
-     background: gold;
-      color: white;
-    }
-    section.su:after {
-        content: "";
-        clear: both;
-        display: block;
-    }
-    .suraj::after{
-      content: "";
-      clear: both;
-      display: block;
-    }
-     .newimg{
-      height: 200px;
-      width: 200px;
-      object-fit: cover;
-    }
-    .newimage{
-      height: 250px;
-      width: 300px;
-      object-fit: cover;
-      padding-right: 0px;
-    }
-    .video {
-      width:300px; 
-      height:250px; 
-      outline:none;
-      margin-left: auto;
-      margin-right:auto;
-      }
+        display:block;
   }
-
-
-   @media only screen and (max-width: 360px) {
-  
-    .header {
-          background-color: rgb(255, 174, 0);
-          color: white;
-          padding: 5px;
-          width:100%;
-          font-size: 15px;
-          padding-left: 0px;
-          padding-right: 0;
-        }
-        .logo img{
-          width: 100%;
-          position: static;
-          margin: 0;
-          height: 90px;
-          width: 120px;
-          float: unset;
-        }
-        .logo a{
-          width: 100%;
-          display:block;
-          float: unset;
-          text-align: center;
-
-        }
-        
-        	
-    ul {
-      list-style-type: none;
-      padding: 10px;
-      overflow: hidden;
-      background-color: rgb(255, 174, 0);
-      display: block;
-    }
-    
-    li {
-      width: 100%;
-      float: center;
-      margin:0px;
-      margin-bottom: 0px;
-      margin-top: 0px;
-      display: block;
-    }
-    
-    li a {
-      display: block;
-      color: white;
-      text-align: center;
-      text-decoration: none;
-    }
-        .search-container {
-          width: 100%;
-          float: unset;
-          font-size: 5px;
-          border: none;
-          cursor: pointer;
-          margin-right: 0px;
-          margin-bottom: 0px;
-          border-radius: 0%;
-          margin-top:25px;
-          padding-left:0;
-          text-align: center;
-        }
-        .search-container form{
-          position: relative;
-
-        }
-        .btn_search{
-          background-color: skyblue;
-          border: none;
-          position: absolute;
-          top: 0;
-          right: -36;
-        }
-        .btn_search i{
-          padding: 0;
-          font-size: 13px;
-        }
-        .search_input{
-          background-color: rgb(255, 196, 0);
-          border: none;
-          padding: 5px;
-          height:35px;
-          width:100px;
-        }
-       
-    .header::after {
-          content: "";
-          clear: both;
-          display:block;
-    }
-    .test {
-      width: 100%;
-       height: 100%;
-       background-color: rgb(255, 196, 0);
-       color: white;
-       text-align: center;
-       font-size: 12px;
-       padding: 0px;
-       margin: 0px;
-       padding-top: 50px;
-       padding-bottom: 50px;
-     }
-     
-     .test1 {
-     width: 100%;
+  .test {
+    width: 100%;
+     height: 100%;
+     background-color: rgb(255, 196, 0);
+     color: white;
      text-align: center;
-    }
-    .test2 {
-      width: 100%;
-      text-align: center;
-
-    }
-    .test::after{
-      content: "";
-      clear: both;
-      display: block;
-    }
-    
-    .add {
-      float: unset;
-      width: 100%;
-      height: 100%;
-      background-color: white;
-      color: black;
-      text-align: center;
-      font-size: 20px;
-      padding: 0px;
-      margin: 0px;
-      padding-bottom: 50px;
-    
-    }
-    .add1 {
-      float: unset;
-      width: 100%;
-      text-align: center;
-      padding-right: 50px;
-    }
-    .add2{
-      float: unset;
-      width: 100%;
-      text-align: center;
-      padding-left: 50px;
-      }
-  
-    .add::after {
-      display:block;
-      content: "";
-      clear: both;
-    }
-    .sum {
-      float: unset;
-      width: 100%;
-      height: 100%;
-      background-color: white;
-      color: black;
-      text-align: center;
-      font-size: 20px;
-      padding: 0px;
-      margin: 0px;
-    }
-    .sum2 {
-      float: unset;
-      width: 100%;
-      text-align: center;
-      padding: 0px;
-      margin: 0px;
-     
-    }
-    .sum1 {
-      float: unset;
-      width: 100%;
-      text-align: center;
-      padding-right: 50px;
-     
-    }
-    .sum::after {
-      display:block;
-      content: "";
-      clear: both;
-    }
-    .div {
-      float: left;
-      width: 100%;
-      height: 100%;
-      background-color: rgb(255, 196, 0);
-      color: white;
-      text-align: center;
-      font-size: 20px;
-      
-    }
-    .div11 {
-      float: left;
-      width: 100%;
-      padding: 0px;
-      margin: 0px;
-      text-align: center;
-     
-    
-    }
-    .div12{
-      float: left;
-      width: 100%;
-      padding: 0px;
-      margin: 0px;
-      text-align: center;
-    
-    }
-    .div13 {
-      float: left;
-      width: 100%;
-      padding: 0px;
-      text-align: center;
-    
-    }
-
-        .flex-container::after{
-          display:block;
-          content:"";
-          clear:both;
-        }
-        .div1 {
-      float: unset;
-      width: 100%;
-      background-color: white;
-      color: black;
-      text-align: center;
-      font-size: 16px;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      padding: 0px;
-      margin :0px;
-    
-    }
-    .div21 {
-      float: left;
-      width: 100%;
-      padding: 10px;
-      text-align: center;
-     
-    
-    }
-    .div22{
-      float: left;
-      width: 100%;
-      padding: 10px;
-      text-align: center;
-    
-    }
-    .div23 {
-      float: left;
-      width: 100%;
-      padding: 10px;
-      text-align: center;
-    
-    }
-        .div1::after{
-          display:block;
-          content:"";
-          clear:both;
-        }
-     
-        .div4 {
-          height: 680px;
-          width: 100%;
-          background-color: rgb(255, 196, 0);
-          background-repeat: no-repeat;
-          color: white;
-          text-align: center;
-          font-size: 16px;
-          background-image: url("backimage.jpg");
-          background-size: cover;
-          background-position: center ;
-          padding-right: 100px;
-          padding-left: 100px;
-          padding-top: 50px;
-          padding-bottom: 50px;
-        }
-        .div41 {
-      float: left;
-      width: 100%;
-      text-align: center;
-    
-    }
-    .div42 {
-      float: left;
-      width: 100%;
-      text-align: center;
-    
-    }
-    .div43 {
-      float: left;
-      width: 100%;
-      text-align: center;
-      padding-left: 40px;
-    }
-    .div4::after {
-      display:block;
-      content: "";
-      clear: both;
-    }
-    
-    .div3 {
-      float: unset;
-      width: 100%;
-      background-color: rgb(255, 196, 0);
-      color: white;
-      text-align: center;
-      font-size: 20px;
-      padding: 0px;
-      margin: 0px;
-      padding-top: 20px;
-    }
+     font-size: 12px;
+     padding: 0px;
+     margin: 0px;
+     padding-top: 50px;
+     padding-bottom: 50px;
+   }
    
-    .div31 {
-      float: left;
-      width: 100%;
-      padding: 10px;
-      text-align: center;
-     
+   .test1 {
+   width: 100%;
+   text-align: center;
+  }
+  .test2 {
+    width: 100%;
+    text-align: center;
+
+  }
+  .test::after{
+    content: "";
+    clear: both;
+    display: block;
+  }
+  
+  .add {
+    float: unset;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 50px;
+  
+  }
+  .add1 {
+    float: unset;
+    width: 100%;
+    text-align: center;
+    padding-right: 50px;
+  }
+  .add2{
+    float: unset;
+    width: 100%;
+    text-align: center;
+    padding-left: 50px;
+    }
+
+  .add::after {
+    display:block;
+    content: "";
+    clear: both;
+  }
+  .sum {
+    float: unset;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .sum2 {
+    float: unset;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+   
+  }
+  .sum1 {
+    float: unset;
+    width: 100%;
+    text-align: center;
+    padding-right: 50px;
+   
+  }
+  .sum::after {
+    display:block;
+    content: "";
+    clear: both;
+  }
+  .div {
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 196, 0);
+    color: white;
+    text-align: center;
+    font-size: 20px;
     
-    }
-    .div32{
-      float: left;
-      width: 100%;
-      padding: 10px;
-      text-align: center;
-    
-    }
-    .div33 {
-      float: left;
-      width: 100%;
-      padding: 10px;
-      text-align: center;
-    
-    }
-    .div3::after {
-      content: "";
-      display:block;
-      clear: both;
-    }
-        
-    .img {
-      border-radius: 8px;
-      float: center;
-      height: 100px;
-      width: 100px;
-    }
-    video {
-      float: right;
-      margin-right: 80px;
-      border-radius: 8px;
-      margin-top: 40px;
-      height: 300px;
-      width: 250px;
-    }
-    button:hover {
-      background-color: rgb(32, 185, 236);
-    }
-    
-    .button {
-      background-color: rgb(255, 196, 0);
-      color: white;
-      border: 2px solid white;
-      border-radius: 4px;
-      padding: 10px 22px;
-      text-align: center;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-      
-    }
-    .button1 {
-      background-color: rgb(60, 151, 187);
-      color: white;
-      border: none;
-      border-radius: 32px;
-      padding: 10px 22px;
-      text-align: center;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-    }
-    
-    .fa {
-      padding: 10px;
-      font-size: 16px;
-     
-      text-align: center;
-      text-decoration: none;
-      margin: 5px 5px;
-      border-radius: 50%;
-    }
-    
-    .fa:hover {
-        opacity: 0.7;
-    }
-    .fa-facebook {
-      background-color: white;
-      color: black;
-    }
-    
-    .fa-twitter {
-      background: white;
-      color: black;
-    }
-    .fa-instagram {
-      background: white;
-      color: black;
-    }
-    .fa-whatsapp{
-     background: white;
-      color: black;
-    }
-    
-    .h {
-      
-      width: 100%;
-      height: 100%;
-      background-color: white;
-      color: black;
-      text-align: center;
-      font-size: 15px;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      padding: 0px ;
-      margin: 0px;
-    }
-    .h1 {
-      float: left;
-      width: 100%;
-      padding: 10px;
-      text-align: center;
-    
-    }
-    .h2 {
-      float: left;
-      width: 100%;
-      padding: 10px;
-      text-align: center;
-    
-    }
-    .h3 {
-      float: left;
-      width: 100%;
-      padding: 10px;
-      text-align: center;
-    }
-    .h::after {
-      display:block;
-      content: "";
-      clear: both;
-    }
-    .footer {
-      width: 100%;
-      height: 700px;
-      background-color: black;
-      color: white;
-      text-align: center;
-      font-size: 12px;
-      padding-left: 50px ;
-      padding-right: 50px;
-      padding-top: 50px;
-            }
-      .box1 {
-      float: left;
-      width: 100%;
-      text-align: center;
+  }
+  .div11 {
+    float: left;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+   
+  
+  }
+  .div12{
+    float: left;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+  
+  }
+  .div13 {
+    float: left;
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+  
+  }
+
+      .flex-container::after{
+        display:block;
+        content:"";
+        clear:both;
       }
-    
-      .box2 {
-      float: left;
-      width: 100%;
-      text-align: center;
-            }
-      .box3 {
-      float: left;
-      width: 100%;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
+      .div1 {
+    float: unset;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px;
+    margin :0px;
+  
+  }
+  .div21 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+   
+  
+  }
+  .div22{
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  
+  }
+  .div23 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  
+  }
+      .div1::after{
+        display:block;
+        content:"";
+        clear:both;
       }
-      .search-container1 {
-      float: right;
-      font-size: 17px;
-      border: none;
-      cursor: pointer;
-      border-radius: 20%;
-      margin-top:35px;
-      margin-right: 50px;
-      padding-bottom: 20px;
-    }
-    .search-container1 form{
-      position: relative;
-    }
-    .btn_search{
-      background-color: skyblue;
-      border: none;
+   
+      .div4 {
+        height: 680px;
+        width: 100%;
+        background-color: rgb(255, 196, 0);
+        background-repeat: no-repeat;
+        color: white;
+        text-align: center;
+        font-size: 16px;
+        background-image: url("backimage.jpg");
+        background-size: cover;
+        background-position: center ;
+        padding-right: 100px;
+        padding-left: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      .div41 {
+    float: left;
+    width: 100%;
+    text-align: center;
+  
+  }
+  .div42 {
+    float: left;
+    width: 100%;
+    text-align: center;
+  
+  }
+  .div43 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-left: 40px;
+  }
+  .div4::after {
+    display:block;
+    content: "";
+    clear: both;
+  }
+  
+  .div3 {
+    float: unset;
+    width: 100%;
+    background-color: rgb(255, 196, 0);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 20px;
+  }
+ 
+  .div31 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+   
+  
+  }
+  .div32{
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  
+  }
+  .div33 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  
+  }
+  .div3::after {
+    content: "";
+    display:block;
+    clear: both;
+  }
+      
+  .img {
+    border-radius: 8px;
+    float: center;
+    height: 100px;
+    width: 100px;
+  }
+  video {
+    float: right;
+    margin-right: 80px;
+    border-radius: 8px;
+    margin-top: 40px;
+    height: 300px;
+    width: 250px;
+  }
+  button:hover {
+    background-color: rgb(32, 185, 236);
+  }
+  
+  .button {
+    background-color: rgb(255, 196, 0);
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 10px 22px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
     
-    }
-    .btn_search i{
-      padding: 0;
-      font-size: 23px;
-    }
-    .search_input{
-      background-color: rgb(255, 196, 0);
-      border: none;
-      padding: 10px;
-      height:35px;
-      width:150px;
-    }
-     
-      .social_media-icon  {
-      padding: 10px;
-      font-size: 16px;
-      text-align: center;
-      text-decoration: none;
-      margin: 5px 5px;
-      border-radius: 50%;
-    }
+  }
+  .button1 {
+    background-color: rgb(60, 151, 187);
+    color: white;
+    border: none;
+    border-radius: 32px;
+    padding: 10px 22px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .fa {
+    padding: 10px;
+    font-size: 16px;
+   
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background-color: white;
+    color: black;
+  }
+  
+  .fa-twitter {
+    background: white;
+    color: black;
+  }
+  .fa-instagram {
+    background: white;
+    color: black;
+  }
+  .fa-whatsapp{
+   background: white;
+    color: black;
+  }
+  
+  .h {
     
-    .social_media-icon:hover {
-        opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px ;
+    margin: 0px;
+  }
+  .h1 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  
+  }
+  .h2 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  
+  }
+  .h3 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+  .h::after {
+    display:block;
+    content: "";
+    clear: both;
+  }
+  .footer {
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding-left: 50px ;
+    padding-right: 50px;
+    padding-top: 50px;
+          }
+    .box1 {
+    float: left;
+    width: 100%;
+    text-align: center;
     }
-    .fa-facebook {
-      background-color: gold;
-      color: white;
+  
+    .box2 {
+    float: left;
+    width: 100%;
+    text-align: center;
+          }
+    .box3 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
     }
-    
-    .fa-twitter {
-      background: gold;
-      color: white;
-    }
-    .fa-instagram {
-      background: gold;
-      color: white;
-    }
-    .fa-whatsapp{
-     background: gold;
-      color: white;
-    }
-    section.su:after {
-        content: "";
-        clear: both;
-        display: block;
-    }
-    .suraj::after{
+    .search-container1 {
+    float: right;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20%;
+    margin-top:35px;
+    margin-right: 50px;
+    padding-bottom: 20px;
+  }
+  .search-container1 form{
+    position: relative;
+  }
+  .btn_search{
+    background-color: skyblue;
+    border: none;
+  
+  }
+  .btn_search i{
+    padding: 0;
+    font-size: 23px;
+  }
+  .search_input{
+    background-color: rgb(255, 196, 0);
+    border: none;
+    padding: 10px;
+    height:35px;
+    width:150px;
+  }
+   
+    .social_media-icon  {
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+  }
+  
+  .social_media-icon:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background-color: gold;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: gold;
+    color: white;
+  }
+  .fa-instagram {
+    background: gold;
+    color: white;
+  }
+  .fa-whatsapp{
+   background: gold;
+    color: white;
+  }
+  section.su:after {
       content: "";
       clear: both;
       display: block;
-    }
-     .newimg{
-      height: 200px;
-      width: 200px;
-      object-fit: cover;
-    }
-    .newimage{
-      height: 200px;
-      width: 250px;
-      object-fit: cover;
-      padding-right: 0px;
-    }
-    
-    .video {
-      width:200px; 
-      height:240px; 
-      outline:none;
-      margin-left: auto;
-      margin-right:auto;
-      }
   }
+  .suraj::after{
+    content: "";
+    clear: both;
+    display: block;
+  }
+   .newimg{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+  .newimage{
+    height: 200px;
+    width: 250px;
+    object-fit: cover;
+    padding-right: 0px;
+  }
+  
+  .video {
+    width:200px; 
+    height:240px; 
+    outline:none;
+    margin-left: auto;
+    margin-right:auto;
+    }
+}
