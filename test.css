@@ -12,6 +12,7 @@ ul {
   padding: 20px;
   overflow: hidden;
   background-color: rgb(255, 174, 0);
+  padding-top: 30px;
 }
 
 li {
@@ -29,27 +30,61 @@ li a {
   text-decoration: none;
 }
 .header {
+      width:100%;
+      width: 100%;
       background-color: rgb(255, 174, 0);
       color: white;
-      padding: 5px;
-      width:100%;
-      font-size: 21px;
+      text-align: left;
+      font-size: 20px;
+  
     }
 .header::after {
       display:block;
       content: "";
       clear: both;
 }
+.logo img{
+  position: absolute;
+  float:left;
+  margin-left: 130px;
+  margin-top: 17px;
+}
+.search-container {
+  float: right;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  margin-right: 150px;
+  margin-bottom: -7px;
+  border-radius: 20%;
+  margin-top: 20px;
+}
+.search-container form{
+  position: relative;
+}
+.btn_search{
+  background-color: skyblue;
+  border: none;
+  position: absolute;
+  top: 0;
+}
+.btn_search i{
+  padding: 0;
+  font-size: 23px;
+}
+.search_input{
+  background-color: rgb(255, 196, 0);
+  border: none;
+padding: 10px;
+}
 .test {
-  width: 100%;
-   padding: 10px;
-   height: 400px;
+   width: 100%;
+   height: 100%;
    background-color: rgb(255, 196, 0);
    color: white;
-   text-align: left;
+   text-align: center;
    font-size: 20px;
-   padding-right: 70px;
-   padding-left: 180px;
+   padding-bottom: 50px;
    padding-top: 50px;
  }
 .test1 {
@@ -73,34 +108,24 @@ li a {
 }
 
 .add {
-  float: left;
   width: 100%;
-  height: 300px;
+  height: 100%;
   background-color: white;
   color: black;
   text-align: center;
   font-size: 20px;
-  padding-left:180px ;
-  padding-right: 120px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding-bottom: 0px;
+  padding-bottom: 50px;
   padding-top: 50px;
-
 }
 .add1 {
   float: left;
   width: 50%;
-  background-color: white;
-  color: black;
-  text-align: left;
+  text-align: center;
 }
 .add2 {
   float: right;
   width: 50%;
-  background-color: white;
-  color: black;
-  text-align: right;
+  text-align: center;
 }
 .add::after {
   display:block;
@@ -108,33 +133,24 @@ li a {
   clear: both;
 }
 .sum {
-  float: left;
   width: 100%;
-  height: 300px;
+  height: 100%;
   background-color: white;
   color: black;
   text-align: center;
   font-size: 20px;
-  padding-left:160px ;
-  padding-right: 150px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding-bottom: 0px;
-  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 .sum2 {
   float: left;
   width: 50%;
-  background-color: white;
-  color: black;
   text-align: left;
 }
 .sum1 {
   float: right;
   width: 50%;
-  background-color: white;
-  color: black;
-  text-align: right;
+  text-align: center;
 }
 .sum::after {
   display:block;
@@ -142,18 +158,14 @@ li a {
   clear: both;
 }
 .div {
-  float: center;
+  height: 100%;
   width: 100%;
   background-color: rgb(255, 196, 0);
   color: white;
   text-align: center;
   font-size: 20px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding-left:100px ;
-  padding-right: 200px;
-  padding-bottom: 40px;
-  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
     
 .div11 {
@@ -161,22 +173,18 @@ li a {
   width: 30%;
   padding: 10px;
   text-align: center;
-  padding-left: 100px;
 }
 .div12 {
   float: left;
   width: 30%;
   padding: 10px;
-  text-align: center; 
-  padding-left: 150px;
-  
+  text-align: center;  
 }
 .div13 {
-  float: right;
+  float: left;
   width: 30%;
   padding: 10px;
   text-align: center;
-  padding-left: 100px;
 } 
     .div::after{
       display:block;
@@ -184,7 +192,7 @@ li a {
       clear:both;
     }
     .div1 {
-  
+  height: 100%;
   width: 100%;
   background-color: white;
   color: black;
@@ -197,66 +205,83 @@ li a {
 .div21 {
   float: left;
   width: 30%;
-  padding: 10px;
-  text-align: left;
-  padding-left: 175px;
-  padding-right: 0px;
-
+  text-align: center;
 }
 .div22{
   float: left;
   width: 30%;
-  padding: 10px;
-  text-align: left;
-  padding-left: 150px;
-
+  text-align: center;
 }
 .div23 {
   float: left;
   width: 30%;
-  padding: 10px;
-  text-align: left;
-  padding-left: 100px;
+  text-align: center;
 }
     .div1::after{
       display:block;
       content:"";
       clear:both;
     }
+    .div3 {
+      height: 100%;
+      width: 100%;
+      background-color: rgb(255, 196, 0);
+      color: white;
+      text-align: center;
+      font-size: 20px;
+      padding-bottom: 50px;
+      padding-top: 50px;
+    }
+    .div31 {
+      float: left;
+      width: 33.33%;
+      text-align: center;
+    }
+    .div32 {
+      float: left;
+      width: 33.33%;
+      text-align: center;
+    
+    }
+    .div33 {
+      float: left;
+      width: 33.33%;
+      text-align: center;
+    }
+    .div3::after {
+      content: "";
+      display:block;
+      clear: both;
+    }
  
     .div4 {
-      height: 400px;
+      height: 100%;
       width: 100%;
       background-color: rgb(255, 196, 0);
       background-repeat: no-repeat;
       color: white;
       text-align: center;
-      font-size: 22px;
+      font-size: 20px;
       background-image: url("backimage.jpg");
       background-size: cover;
       background-position: center ;
-      padding-right: 100px;
-      padding-left: 100px;
       padding-top: 50px;
       padding-bottom: 50px;
     }
     .div41 {
-  float: left;
-  width: 30%;
-  text-align: center;
-
-}
-.div42 {
-  float: left;
-  width: 30%;
-  text-align: center;
-
-}
+      float: left;
+     width: 30%;
+    text-align: center;
+   }
+   .div42 {
+    float: left;
+    width: 30%;
+    text-align: center;
+    }
 .div43 {
-  float: right;
+  float: left;
   width: 30%;
   text-align: center;
-  padding-right: 100px;
 }
 .div4::after {
   display:block;
@@ -264,43 +289,6 @@ li a {
   clear: both;
 }
 
-.div3 {
-  float: center;
-  width: 100%;
-  background-color: rgb(255, 196, 0);
-  color: white;
-  text-align: center;
-  font-size: 20px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding-left:100px ;
-  padding-right: 200px;
-  padding-bottom: 50px;
-  padding-top: 30px;
-}
-.div31 {
-  float: left;
-  width: 33.33%;
-  text-align: center;
-  padding-left: 80px;
-}
-.div32 {
-  float: left;
-  width: 33.33%;
-  text-align: center;
-  padding-left: 70px;
-}
-.div33 {
-  float: right;
-  width: 33.33%;
-  text-align: center;
-  padding-left: 80px;
-}
-.div3::after {
-  content: "";
-  display:block;
-  clear: both;
-}
     
 img {
   border-radius: 8px;
@@ -339,27 +327,10 @@ button:hover {
   margin: 4px 2px;
   cursor: pointer;
 }
-.logo img{
-  position: absolute;
-  float:left;
-  margin-left: 130px;
-  margin-top: 25px;
-}
-.search-container {
-  float: right;
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
-  margin-right: 150px;
-  margin-bottom: -7px;
-  border-radius: 20%;
-  margin-top:35px;
-}
 
 .fa {
   padding: 15px;
   font-size: 16px;
- 
   text-align: center;
   text-decoration: none;
   margin: 5px 5px;
@@ -386,26 +357,9 @@ button:hover {
  background: white;
   color: black;
 }
-.search-container form{
-  position: relative;
-}
-.btn_search{
-  background-color: skyblue;
-  border: none;
-  position: absolute;
-  top: 0;
-}
-.btn_search i{
-  padding: 0;
-  font-size: 23px;
-}
-.search_input{
-  background-color: rgb(255, 196, 0);
-  border: none;
-padding: 10px;
-}
+
 .h {
-  float: center;
+  height: 100%;
   width: 100%;
   background-color: white;
   color: black;
@@ -413,28 +367,26 @@ padding: 10px;
   font-size: 20px;
   margin-top: 50px;
   margin-bottom: 50px;
-  padding-left:150px ;
-  padding-right: 50px;
 }
 .h1 {
   float: left;
   width: 30%;
   padding: 10px;
-  text-align: left;
+  text-align: center;
 
 }
 .h2 {
   float: left;
   width: 30%;
   padding: 10px;
-  text-align: left;
+  text-align: center;
 
 }
 .h3 {
   float: left;
   width: 30%;
   padding: 10px;
-  text-align: left;
+  text-align: center;
 }
 .h::after {
   display:block;
@@ -443,27 +395,26 @@ padding: 10px;
 }
 .footer {
   width: 100%;
-  height: 300px;
+  height: 100%;
   background-color: black;
   color: white;
   text-align: center;
-  font-size: 15px;
-  padding-left:150px ;
-  padding-right: 70px;
-        }
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+ }
   .box1 {
   float: left;
   width: 30%;
-  text-align: left;
+  text-align: center;
   }
 
   .box2 {
   float: left;
   width: 30%;
-  text-align: left;
+  text-align: center;
         }
   .box3 {
-  float: left;
   width: 30%;
   text-align: right;
   display: flex;
@@ -547,92 +498,87 @@ section.su:after {
 }
 
 @media only screen and (max-width: 1024px) {
-
-  .header {
-        background-color: rgb(255, 174, 0);
-        color: white;
-        padding: 5px;
-        width:100%;
-        font-size: 15px;
-        padding-left: 0px;
-        padding-right: 50px;
-      }
-      .logo img{
-        position: absolute;
-        margin-top: 20px;
-        margin-left:90px;
-      }
-        
   ul {
     list-style-type: none;
-    padding: 10px;
+    padding: 20px;
     overflow: hidden;
     background-color: rgb(255, 174, 0);
-    display: block;
+    padding-top: 30px;
   }
   
   li {
-    float: center;
-    margin:0px;
+    float: right;
+    margin: 10px;
     margin-bottom: 0px;
     margin-top: -5px;
-    display: block;
   }
   
   li a {
-    display: block;
+    display: inline;
     color: white;
     text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
   }
-      .search-container {
-        float: right;
-        font-size: 5px;
-        border: none;
-        cursor: pointer;
-        margin-right: 80px;
-        margin-bottom: 0px;
-        border-radius: 0%;
-        margin-top:25px;
-      }
-      .search-container form{
-        position: relative;
-      }
-      .btn_search{
-        background-color: skyblue;
-        border: none;
-        position: absolute;
-        top: 0;
-        right: -36;
-      }
-      .btn_search i{
-        padding: 0;
-        font-size: 13px;
-      }
-      .search_input{
-        background-color: rgb(255, 196, 0);
-        border: none;
-      padding: 5px;
+  .header {
+        width:100%;
+        width: 100%;
+        background-color: rgb(255, 174, 0);
+        color: white;
+        text-align: left;
+        font-size: 20px;
+    
       }
   .header::after {
         display:block;
         content: "";
         clear: both;
   }
+  .logo img{
+    position: absolute;
+    float:left;
+    margin-left: 80px;
+    margin-top: 17px;
+  }
+  .search-container {
+    float: right;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    margin-right: 120px;
+    margin-bottom: -7px;
+    border-radius: 20%;
+    margin-top: 20px;
+  }
+  .search-container form{
+    position: relative;
+  }
+  .btn_search{
+    background-color: skyblue;
+    border: none;
+    position: absolute;
+    top: 0;
+  }
+  .btn_search i{
+    padding: 0;
+    font-size: 23px;
+  }
+  .search_input{
+    background-color: rgb(255, 196, 0);
+    border: none;
+  padding: 10px;
+  }
   .test {
-    width: 100%;
-     padding: 0px;
+     width: 100%;
      height: 100%;
      background-color: rgb(255, 196, 0);
      color: white;
-     text-align: left;
+     text-align: center;
      font-size: 20px;
-     padding-right: 0px;
-     padding-left: 100px;
-     padding-top: 40px;
-     padding-bottom: 40px;
+     padding-bottom: 50px;
+     padding-top: 50px;
    }
-   .test1 {
+  .test1 {
     float: left;
    width: 50%;
   
@@ -644,36 +590,33 @@ section.su:after {
   .newimage{
     height: 300px;
     width: 300px;
+    object-fit: cover;
   }
-  .test::after{
+  .test::after {
+    display:block;
     content: "";
     clear: both;
-    display: block;
   }
   
   .add {
-    float: left;
     width: 100%;
     height: 100%;
     background-color: white;
     color: black;
     text-align: center;
     font-size: 20px;
-    padding-left:100px ;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-top: 30px;
-  
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
   .add1 {
     float: left;
     width: 50%;
-  padding-top: 50px;
+    text-align: center;
   }
   .add2 {
     float: right;
     width: 50%;
-
+    text-align: center;
   }
   .add::after {
     display:block;
@@ -681,17 +624,14 @@ section.su:after {
     clear: both;
   }
   .sum {
-    float: left;
     width: 100%;
     height: 100%;
     background-color: white;
     color: black;
     text-align: center;
     font-size: 20px;
-    padding-left: 180px ;
-    padding-right: 100px;
-    padding-bottom: 0px;
-    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
   .sum2 {
     float: left;
@@ -701,7 +641,7 @@ section.su:after {
   .sum1 {
     float: right;
     width: 50%;
-    text-align: right;
+    text-align: center;
   }
   .sum::after {
     display:block;
@@ -709,50 +649,41 @@ section.su:after {
     clear: both;
   }
   .div {
-    float: center;
-    width: 100%;
     height: 100%;
+    width: 100%;
     background-color: rgb(255, 196, 0);
     color: white;
     text-align: center;
     font-size: 20px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-left: 50px ;
-    padding-right: 150px;
     padding-bottom: 50px;
-    padding-top: 30px;
+    padding-top: 50px;
   }
+      
   .div11 {
     float: left;
-    padding: 0px;
     width: 30%;
+    padding: 10px;
     text-align: center;
-    padding-left: 50px;
   }
   .div12 {
-    float: right;
+    float: left;
     width: 30%;
-    margin-right: -80px;
-    padding: 0px;
-    text-align: center;
+    padding: 10px;
+    text-align: center;  
   }
   .div13 {
     float: left;
     width: 30%;
+    padding: 10px;
     text-align: center;
-    padding: 0px;
-    padding-left: 120px;
-    padding-right: 0px;
-  }
-
-      .flex-container::after{
+  } 
+      .div::after{
         display:block;
         content:"";
         clear:both;
       }
       .div1 {
-    
+    height: 100%;
     width: 100%;
     background-color: white;
     color: black;
@@ -760,71 +691,88 @@ section.su:after {
     font-size: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
-    padding-left: 100px;
-    padding-right: 0px;
   
   }
   .div21 {
     float: left;
     width: 30%;
-    padding: 10px;
-    text-align: left;
-   
-  
+    text-align: center;
   }
   .div22{
     float: left;
     width: 30%;
-    padding: 10px;
-    text-align: left;
-  
+    text-align: center;
   }
   .div23 {
     float: left;
     width: 30%;
-    padding: 10px;
-    text-align: left;
-  
+    text-align: center;
   }
       .div1::after{
         display:block;
         content:"";
         clear:both;
       }
+      .div3 {
+        height: 100%;
+        width: 100%;
+        background-color: rgb(255, 196, 0);
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 50px;
+        padding-top: 50px;
+      }
+      .div31 {
+        float: left;
+        width: 33.33%;
+        text-align: center;
+      }
+      .div32 {
+        float: left;
+        width: 33.33%;
+        text-align: center;
+      
+      }
+      .div33 {
+        float: left;
+        width: 33.33%;
+        text-align: center;
+      }
+      .div3::after {
+        content: "";
+        display:block;
+        clear: both;
+      }
    
       .div4 {
-        height: 400px;
+        height: 100%;
         width: 100%;
         background-color: rgb(255, 196, 0);
         background-repeat: no-repeat;
         color: white;
         text-align: center;
-        font-size: 22px;
+        font-size: 20px;
         background-image: url("backimage.jpg");
         background-size: cover;
         background-position: center ;
-        padding-right: 100px;
-        padding-left: 100px;
         padding-top: 50px;
         padding-bottom: 50px;
       }
       .div41 {
-    float: left;
-    width: 30%;
-    text-align: center;
-  
-  }
-  .div42 {
-    float: left;
-    width: 30%;
-    text-align: center;
-  
-  }
+        float: left;
+       width: 30%;
+      text-align: center;
+     }
+     .div42 {
+      float: left;
+      width: 30%;
+      text-align: center;
+      }
   .div43 {
-    float: right;
+    float: left;
     width: 30%;
     text-align: center;
-    padding-right: 100px;
   }
   .div4::after {
     display:block;
@@ -832,41 +780,6 @@ section.su:after {
     clear: both;
   }
   
-  .div3 {
-    float: center;
-    width: 100%;
-    background-color: rgb(255, 196, 0);
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-left: 30px ;
-    padding-right: 100px;
-    padding-bottom: 50px;
-    padding-top: 30px;
-  }
-  .div31 {
-    float: left;
-    padding: 5px;
-    width: 33.33%;
-    text-align: center;
-  }
-  .div32 {
-    float: left;
-    width: 33.33%;
-    text-align: center;
-  }
-  .div33 {
-    float: right;
-    width: 33.33%;
-    text-align: center;
-  }
-  .div3::after {
-    content: "";
-    display:block;
-    clear: both;
-  }
       
   img {
     border-radius: 8px;
@@ -909,7 +822,6 @@ section.su:after {
   .fa {
     padding: 15px;
     font-size: 16px;
-   
     text-align: center;
     text-decoration: none;
     margin: 5px 5px;
@@ -938,36 +850,34 @@ section.su:after {
   }
   
   .h {
-    float: center;
+    height: 100%;
     width: 100%;
     background-color: white;
     color: black;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
-    padding-left: 125px ;
-    padding-right: 0px;
   }
   .h1 {
     float: left;
     width: 30%;
     padding: 10px;
-    text-align: left;
+    text-align: center;
   
   }
   .h2 {
     float: left;
     width: 30%;
     padding: 10px;
-    text-align: left;
+    text-align: center;
   
   }
   .h3 {
     float: left;
     width: 30%;
     padding: 10px;
-    text-align: left;
+    text-align: center;
   }
   .h::after {
     display:block;
@@ -976,28 +886,26 @@ section.su:after {
   }
   .footer {
     width: 100%;
-    height: 400px;
+    height: 100%;
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 15px;
-    padding-left:100px ;
-    padding-right: 50px;
-    padding-top: 50px;
-          }
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   }
     .box1 {
     float: left;
     width: 30%;
-    text-align: left;
+    text-align: center;
     }
   
     .box2 {
     float: left;
     width: 30%;
-    text-align: left;
+    text-align: center;
           }
     .box3 {
-    float: left;
     width: 30%;
     text-align: right;
     display: flex;
@@ -1076,99 +984,93 @@ section.su:after {
     object-fit: cover;
   }
   .newimage{
-    height: 250px;
+    height: 300px;
     width: 350px;
-    object-fit: cover;
   }
-
-} 
+}
 
 @media only screen and (max-width: 992px) {
-  
-  .header {
-        background-color: rgb(255, 174, 0);
-        color: white;
-        padding: 5px;
-        width:100%;
-        font-size: 15px;
-        padding-left: 0px;
-        padding-right: 50px;
-      }
-      .logo img{
-        position: absolute;
-        margin-top: 20px;
-      }
-        
   ul {
     list-style-type: none;
-    padding: 10px;
+    padding: 20px;
     overflow: hidden;
     background-color: rgb(255, 174, 0);
-    display: block;
+    padding-top: 30px;
   }
   
   li {
-    float: center;
-    margin:0px;
+    float: right;
+    margin: 5px;
     margin-bottom: 0px;
     margin-top: -5px;
-    display: block;
   }
   
   li a {
-    display: block;
+    display: inline;
     color: white;
     text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
   }
-      .search-container {
-        float: right;
-        font-size: 5px;
-        border: none;
-        cursor: pointer;
-        margin-right: 80px;
-        margin-bottom: 0px;
-        border-radius: 0%;
-        margin-top:25px;
-      }
-      .search-container form{
-        position: relative;
-      }
-      .btn_search{
-        background-color: skyblue;
-        border: none;
-        position: absolute;
-        top: 0;
-        right: -36;
-      }
-      .btn_search i{
-        padding: 0;
-        font-size: 13px;
-      }
-      .search_input{
-        background-color: rgb(255, 196, 0);
-        border: none;
-      padding: 5px;
+  .header {
+        width:100%;
+        width: 100%;
+        background-color: rgb(255, 174, 0);
+        color: white;
+        text-align: left;
+        font-size: 20px;
+    
       }
   .header::after {
         display:block;
         content: "";
         clear: both;
   }
+  .logo img{
+    position: absolute;
+    float:left;
+    margin-left: 80px;
+    margin-top: 17px;
+  }
+  .search-container {
+    float: right;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    margin-right: 120px;
+    margin-bottom: -7px;
+    border-radius: 20%;
+    margin-top: 20px;
+  }
+  .search-container form{
+    position: relative;
+  }
+  .btn_search{
+    background-color: skyblue;
+    border: none;
+    position: absolute;
+    top: 0;
+  }
+  .btn_search i{
+    padding: 0;
+    font-size: 23px;
+  }
+  .search_input{
+    background-color: rgb(255, 196, 0);
+    border: none;
+  padding: 10px;
+  }
   .test {
-    width: 100%;
-     padding: 0px;
+     width: 100%;
      height: 100%;
      background-color: rgb(255, 196, 0);
      color: white;
-     text-align: left;
+     text-align: center;
      font-size: 20px;
-     padding-right: 0px;
-     padding-left: 100px;
-     padding-top: 40px;
-     padding-bottom: 40px;
+     padding-bottom: 50px;
+     padding-top: 50px;
    }
-   .test1 {
+  .test1 {
     float: left;
    width: 50%;
   
@@ -1180,36 +1082,33 @@ section.su:after {
   .newimage{
     height: 300px;
     width: 300px;
+    object-fit: cover;
   }
-  .test::after{
+  .test::after {
+    display:block;
     content: "";
     clear: both;
-    display: block;
   }
   
   .add {
-    float: left;
     width: 100%;
     height: 100%;
     background-color: white;
     color: black;
     text-align: center;
     font-size: 20px;
-    padding-left:100px ;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-top: 30px;
-  
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
   .add1 {
     float: left;
     width: 50%;
-  padding-top: 50px;
+    text-align: center;
   }
   .add2 {
     float: right;
     width: 50%;
-
+    text-align: center;
   }
   .add::after {
     display:block;
@@ -1217,17 +1116,14 @@ section.su:after {
     clear: both;
   }
   .sum {
-    float: left;
     width: 100%;
     height: 100%;
     background-color: white;
     color: black;
     text-align: center;
     font-size: 20px;
-    padding-left: 180px ;
-    padding-right: 100px;
-    padding-bottom: 0px;
-    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
   .sum2 {
     float: left;
@@ -1237,7 +1133,7 @@ section.su:after {
   .sum1 {
     float: right;
     width: 50%;
-    text-align: right;
+    text-align: center;
   }
   .sum::after {
     display:block;
@@ -1245,45 +1141,41 @@ section.su:after {
     clear: both;
   }
   .div {
-    float: center;
-    width: 100%;
     height: 100%;
+    width: 100%;
     background-color: rgb(255, 196, 0);
     color: white;
     text-align: center;
     font-size: 20px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-left: 50px ;
-    padding-right: 0px;
     padding-bottom: 50px;
-    padding-top: 30px;
+    padding-top: 50px;
   }
+      
   .div11 {
     float: left;
-    padding: 5px;
     width: 30%;
+    padding: 10px;
     text-align: center;
   }
   .div12 {
-    float: right;
+    float: left;
     width: 30%;
-    margin-right: 60px;
+    padding: 10px;
+    text-align: center;  
   }
   .div13 {
     float: left;
     width: 30%;
+    padding: 10px;
     text-align: center;
-    padding-left: 40px;
-  }
-
-      .flex-container::after{
+  } 
+      .div::after{
         display:block;
         content:"";
         clear:both;
       }
       .div1 {
-    
+    height: 100%;
     width: 100%;
     background-color: white;
     color: black;
@@ -1291,71 +1183,88 @@ section.su:after {
     font-size: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
-    padding-left: 100px;
-    padding-right: 0px;
   
   }
   .div21 {
     float: left;
     width: 30%;
-    padding: 10px;
-    text-align: left;
-   
-  
+    text-align: center;
   }
   .div22{
     float: left;
     width: 30%;
-    padding: 10px;
-    text-align: left;
-  
+    text-align: center;
   }
   .div23 {
     float: left;
     width: 30%;
-    padding: 10px;
-    text-align: left;
-  
+    text-align: center;
   }
       .div1::after{
         display:block;
         content:"";
         clear:both;
       }
+      .div3 {
+        height: 100%;
+        width: 100%;
+        background-color: rgb(255, 196, 0);
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 50px;
+        padding-top: 50px;
+      }
+      .div31 {
+        float: left;
+        width: 33.33%;
+        text-align: center;
+      }
+      .div32 {
+        float: left;
+        width: 33.33%;
+        text-align: center;
+      
+      }
+      .div33 {
+        float: left;
+        width: 33.33%;
+        text-align: center;
+      }
+      .div3::after {
+        content: "";
+        display:block;
+        clear: both;
+      }
    
       .div4 {
-        height: 400px;
+        height: 100%;
         width: 100%;
         background-color: rgb(255, 196, 0);
         background-repeat: no-repeat;
         color: white;
         text-align: center;
-        font-size: 22px;
+        font-size: 20px;
         background-image: url("backimage.jpg");
         background-size: cover;
         background-position: center ;
-        padding-right: 100px;
-        padding-left: 100px;
         padding-top: 50px;
         padding-bottom: 50px;
       }
       .div41 {
-    float: left;
-    width: 30%;
-    text-align: center;
-  
-  }
-  .div42 {
-    float: left;
-    width: 30%;
-    text-align: center;
-  
-  }
+        float: left;
+       width: 30%;
+      text-align: center;
+     }
+     .div42 {
+      float: left;
+      width: 30%;
+      text-align: center;
+      }
   .div43 {
-    float: right;
+    float: left;
     width: 30%;
     text-align: center;
-    padding-right: 100px;
   }
   .div4::after {
     display:block;
@@ -1363,41 +1272,6 @@ section.su:after {
     clear: both;
   }
   
-  .div3 {
-    float: center;
-    width: 100%;
-    background-color: rgb(255, 196, 0);
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-left: 30px ;
-    padding-right: 100px;
-    padding-bottom: 50px;
-    padding-top: 30px;
-  }
-  .div31 {
-    float: left;
-    padding: 5px;
-    width: 33.33%;
-    text-align: center;
-  }
-  .div32 {
-    float: left;
-    width: 33.33%;
-    text-align: center;
-  }
-  .div33 {
-    float: right;
-    width: 33.33%;
-    text-align: center;
-  }
-  .div3::after {
-    content: "";
-    display:block;
-    clear: both;
-  }
       
   img {
     border-radius: 8px;
@@ -1438,9 +1312,8 @@ section.su:after {
   }
   
   .fa {
-    padding: 15px;
+    padding: 10px;
     font-size: 16px;
-   
     text-align: center;
     text-decoration: none;
     margin: 5px 5px;
@@ -1469,36 +1342,34 @@ section.su:after {
   }
   
   .h {
-    float: center;
+    height: 100%;
     width: 100%;
     background-color: white;
     color: black;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
-    padding-left: 100px ;
-    padding-right: 0px;
   }
   .h1 {
     float: left;
     width: 30%;
     padding: 10px;
-    text-align: left;
+    text-align: center;
   
   }
   .h2 {
     float: left;
     width: 30%;
     padding: 10px;
-    text-align: left;
+    text-align: center;
   
   }
   .h3 {
     float: left;
     width: 30%;
     padding: 10px;
-    text-align: left;
+    text-align: center;
   }
   .h::after {
     display:block;
@@ -1507,28 +1378,26 @@ section.su:after {
   }
   .footer {
     width: 100%;
-    height: 400px;
+    height: 100%;
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 15px;
-    padding-left:100px ;
-    padding-right: 50px;
-    padding-top: 35px;
-          }
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   }
     .box1 {
     float: left;
     width: 30%;
-    text-align: left;
+    text-align: center;
     }
   
     .box2 {
     float: left;
     width: 30%;
-    text-align: left;
+    text-align: center;
           }
     .box3 {
-    float: left;
     width: 30%;
     text-align: right;
     display: flex;
@@ -1606,101 +1475,95 @@ section.su:after {
     width: 200px;
     object-fit: cover;
   }
-
-} 
+  .newimage{
+    height: 300px;
+    width: 350px;
+  }
+}
 
 @media only screen and (max-width: 768px) {
-  
-  .header {
-        background-color: rgb(255, 174, 0);
-        color: white;
-        padding: 5px;
-        width:100%;
-        font-size: 15px;
-        padding-left: 0px;
-        padding-right: 30px;
-      }
-      .logo img{
-        position: absolute;
-        margin-top: 15px;
-        height: 55px;
-        width: 150px;
-        margin-left: 50px;
-
-      }
-        
   ul {
     list-style-type: none;
-    padding: 10px;
+    padding: 20px;
     overflow: hidden;
     background-color: rgb(255, 174, 0);
-    display: block;
+    padding-top: 30px;
   }
   
   li {
-    float: center;
-    margin:0px;
+    float: right;
+    margin: 0px;
     margin-bottom: 0px;
     margin-top: -5px;
-    display: block;
   }
   
   li a {
-    display: block;
+    display: inline;
     color: white;
     text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
   }
-      .search-container {
-        float: right;
-        font-size: 5px;
-        border: none;
-        cursor: pointer;
-        margin-right: 80px;
-        margin-bottom: 0px;
-        border-radius: 0%;
-        margin-top:25px;
-      }
-      .search-container form{
-        position: relative;
-      }
-      .btn_search{
-        background-color: skyblue;
-        border: none;
-        position: absolute;
-        top: 0;
-        right: -36;
-      }
-      .btn_search i{
-        padding: 0;
-        font-size: 13px;
-      }
-      .search_input{
-        background-color: rgb(255, 196, 0);
-        border: none;
-      padding: 5px;
-      height:35px;
-      width:135px;
+  .header {
+        width:100%;
+        width: 100%;
+        background-color: rgb(255, 174, 0);
+        color: white;
+        text-align: left;
+        font-size: 20px;
+    
       }
   .header::after {
         display:block;
         content: "";
         clear: both;
   }
+  .logo img{
+    width: 130px;
+    position: absolute;
+    float:left;
+    margin-left: 10px;
+    margin-top: 17px;
+  }
+  .search-container {
+    float: right;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-bottom: -7px;
+    border-radius: 20%;
+    margin-top: 20px;
+  }
+  .search-container form{
+    position: relative;
+  }
+  .btn_search{
+    background-color: skyblue;
+    border: none;
+    position: absolute;
+    top: 0;
+  }
+  .btn_search i{
+    padding: 0;
+    font-size: 23px;
+  }
+  .search_input{
+    background-color: rgb(255, 196, 0);
+    border: none;
+    padding: 10px;
+  }
   .test {
-    width: 100%;
-     padding: 0px;
+     width: 100%;
      height: 100%;
      background-color: rgb(255, 196, 0);
      color: white;
-     text-align: left;
-     font-size: 16px;
-     padding-right: 0px;
-     padding-left: 100px;
-     padding-top: 40px;
-     padding-bottom: 40px;
+     text-align: center;
+     font-size: 20px;
+     padding-bottom: 50px;
+     padding-top: 50px;
    }
-   .test1 {
+  .test1 {
     float: left;
    width: 50%;
   
@@ -1709,33 +1572,36 @@ section.su:after {
     float: right;
     width: 50%;
   }
-  .test::after{
+  .newimage{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+  }
+  .test::after {
+    display:block;
     content: "";
     clear: both;
-    display: block;
   }
   
   .add {
-    float: left;
     width: 100%;
     height: 100%;
     background-color: white;
     color: black;
     text-align: center;
-    font-size: 16px;
-    padding-left: 80px;
-    padding-right: 10px;
-    padding-top: 0px;
-  
+    font-size: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
   .add1 {
     float: left;
     width: 50%;
-    margin-top: 100px;
+    text-align: center;
   }
   .add2 {
     float: right;
     width: 50%;
+    text-align: center;
   }
   .add::after {
     display:block;
@@ -1743,17 +1609,14 @@ section.su:after {
     clear: both;
   }
   .sum {
-    float: left;
     width: 100%;
     height: 100%;
     background-color: white;
     color: black;
     text-align: center;
-    font-size: 16px;
-    padding-left: 180px ;
-    padding-right: 100px;
-    margin-bottom: 100px;
-    margin-top: 0px;
+    font-size: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
   .sum2 {
     float: left;
@@ -1763,8 +1626,7 @@ section.su:after {
   .sum1 {
     float: right;
     width: 50%;
-    text-align: right;
-    margin-top: 100px;
+    text-align: center;
   }
   .sum::after {
     display:block;
@@ -1772,117 +1634,130 @@ section.su:after {
     clear: both;
   }
   .div {
-    float: center;
-    width: 100%;
     height: 100%;
+    width: 100%;
     background-color: rgb(255, 196, 0);
     color: white;
     text-align: center;
     font-size: 20px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-left: 50px ;
-    padding-right: 0px;
     padding-bottom: 50px;
-    padding-top: 30px;
+    padding-top: 50px;
   }
+      
   .div11 {
     float: left;
-    padding: 5px;
     width: 30%;
+    padding: 10px;
     text-align: center;
   }
   .div12 {
-    float: right;
+    float: left;
     width: 30%;
-    margin-right: 60px;
+    padding: 10px;
+    text-align: center;  
   }
   .div13 {
     float: left;
     width: 30%;
+    padding: 10px;
     text-align: center;
-    padding-left: 40px;
-  }
-
-      .flex-container::after{
+  } 
+      .div::after{
         display:block;
         content:"";
         clear:both;
       }
       .div1 {
-    
+    height: 100%;
     width: 100%;
     background-color: white;
     color: black;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
-    padding-left: 100px;
-    padding-right:0px;
   
   }
   .div21 {
     float: left;
     width: 30%;
-    padding: 10px;
-    text-align: left;
-   
-  
+    text-align: center;
   }
   .div22{
     float: left;
     width: 30%;
-    padding: 10px;
-    text-align: left;
-  
+    text-align: center;
   }
   .div23 {
     float: left;
     width: 30%;
-    padding: 10px;
-    text-align: left;
-  
+    text-align: center;
   }
       .div1::after{
         display:block;
         content:"";
         clear:both;
       }
+      .div3 {
+        height: 100%;
+        width: 100%;
+        background-color: rgb(255, 196, 0);
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 50px;
+        padding-top: 50px;
+      }
+      .div31 {
+        float: left;
+        width: 33.33%;
+        text-align: center;
+      }
+      .div32 {
+        float: left;
+        width: 33.33%;
+        text-align: center;
+      
+      }
+      .div33 {
+        float: left;
+        width: 33.33%;
+        text-align: center;
+      }
+      .div3::after {
+        content: "";
+        display:block;
+        clear: both;
+      }
    
       .div4 {
-        height: 400px;
+        height: 100%;
         width: 100%;
         background-color: rgb(255, 196, 0);
         background-repeat: no-repeat;
         color: white;
         text-align: center;
-        font-size: 16px;
+        font-size: 20px;
         background-image: url("backimage.jpg");
         background-size: cover;
         background-position: center ;
-        padding-right: 100px;
-        padding-left: 100px;
         padding-top: 50px;
         padding-bottom: 50px;
       }
       .div41 {
-    float: left;
-    width: 30%;
-    text-align: center;
-  
-  }
-  .div42 {
-    float: left;
-    width: 30%;
-    text-align: center;
-  
-  }
+        float: left;
+       width: 30%;
+      text-align: center;
+     }
+     .div42 {
+      float: left;
+      width: 30%;
+      text-align: center;
+      }
   .div43 {
-    float: right;
+    float: left;
     width: 30%;
     text-align: center;
-    padding-right: 100px;
   }
   .div4::after {
     display:block;
@@ -1890,55 +1765,16 @@ section.su:after {
     clear: both;
   }
   
-  .div3 {
-    float: center;
-    width: 100%;
-    background-color: rgb(255, 196, 0);
-    color: white;
-    text-align: center;
-    font-size: 16px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-left: 80px ;
-    padding-right: 150px;
-    padding-bottom: 50px;
-    padding-top: 30px;
-  }
-  .div31 {
-    float: left;
-    padding: 5px;
-    width: 33.33%;
-    text-align: center;
-  }
-  .div32 {
-    float: left;
-    width: 33.33%;
-    text-align: center;
-  }
-  .div33 {
-    float: right;
-    width: 33.33%;
-    text-align: center;
-  }
-  .div3::after {
-    content: "";
-    display:block;
-    clear: both;
-  }
       
-  .img {
+  img {
     border-radius: 8px;
     float: center;
-    height: 100px;
-    width: 100px;
   }
   video {
     float: right;
-    margin-right: 80px;
+    margin-right: 3px;
     border-radius: 8px;
     margin-top: 40px;
-    height: 300px;
-    width: 250px;
   }
   button:hover {
     background-color: rgb(32, 185, 236);
@@ -1971,7 +1807,6 @@ section.su:after {
   .fa {
     padding: 10px;
     font-size: 16px;
-   
     text-align: center;
     text-decoration: none;
     margin: 5px 5px;
@@ -2000,36 +1835,34 @@ section.su:after {
   }
   
   .h {
-    float: center;
+    height: 100%;
     width: 100%;
     background-color: white;
     color: black;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
-    padding-left: 100px ;
-    padding-right: 0px;
   }
   .h1 {
     float: left;
     width: 30%;
     padding: 10px;
-    text-align: left;
+    text-align: center;
   
   }
   .h2 {
     float: left;
     width: 30%;
     padding: 10px;
-    text-align: left;
+    text-align: center;
   
   }
   .h3 {
     float: left;
     width: 30%;
     padding: 10px;
-    text-align: left;
+    text-align: center;
   }
   .h::after {
     display:block;
@@ -2038,28 +1871,26 @@ section.su:after {
   }
   .footer {
     width: 100%;
-    height: 350px;
+    height: 100%;
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 12px;
-    padding-left:100px ;
-    padding-right: 50px;
-    padding-top: 35px;
-          }
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   }
     .box1 {
     float: left;
     width: 30%;
-    text-align: left;
+    text-align: center;
     }
   
     .box2 {
     float: left;
     width: 30%;
-    text-align: left;
+    text-align: center;
           }
     .box3 {
-    float: left;
     width: 30%;
     text-align: right;
     display: flex;
@@ -2094,7 +1925,7 @@ section.su:after {
   }
    
     .social_media-icon  {
-    padding: 5px;
+    padding: 10px;
     font-size: 16px;
     text-align: center;
     text-decoration: none;
@@ -2132,300 +1963,294 @@ section.su:after {
     clear: both;
     display: block;
   }
-   .newimg{
-    height: 150px;
-    width: 150px;
+  .newimg{
+    height: 200px;
+    width: 200px;
     object-fit: cover;
   }
   .newimage{
-    height: 210px;
-    width: 250px;
-    object-fit: cover;
+    height: 300px;
+    width: 350px;
   }
-} 
-@media only screen and (max-width: 576px) {
-  
-  .header {
-        background-color: rgb(255, 174, 0);
-        color: white;
-        width:100%;
-        font-size: 12px;
-        padding-left: 0px;
-        padding-right: 100px;
-      }
-      .logo img{
-        position: none;
-        margin-top: 10px;
-        height: 55px;
-        width: 80px;
-        margin-left: 50px;
+}
 
-      }
-        
+@media only screen and (max-width: 576px) {
   ul {
     list-style-type: none;
-    padding: 10px;
+    padding: 20px;
     overflow: hidden;
     background-color: rgb(255, 174, 0);
-    display: block;
+    padding-top: 30px;
   }
   
   li {
-    float: center;
-    margin:0px;
+    float: right;
+    margin: 0px;
     margin-bottom: 0px;
     margin-top: -5px;
-    display: block;
   }
   
   li a {
-    display: block;
+    display: inline;
     color: white;
     text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
   }
-      .search-container {
-        float: right;
-        font-size: 5px;
-        border: none;
-        cursor: pointer;
-        margin-right: -25px;
-        margin-bottom: 0px;
-        border-radius: 0%;
-        margin-top:25px;
-      }
-      .search-container form{
-        position: relative;
-      }
-      .btn_search{
-        background-color: skyblue;
-        border: none;
-        position: absolute;
-        top: 0;
-        right: -36;
-      }
-      .btn_search i{
-        padding: 0;
-        font-size: 13px;
-      }
-      .search_input{
-        background-color: rgb(255, 196, 0);
-        border: none;
-      padding: 5px;
-      height: 15px;
-      width: 100px;
+  .header {
+        width:100%;
+        width: 100%;
+        background-color: rgb(255, 174, 0);
+        color: white;
+        text-align: left;
+        font-size: 20px;
+    
       }
   .header::after {
         display:block;
         content: "";
         clear: both;
   }
+  .logo img{
+    width: 130px;
+    position: absolute;
+    float:left;
+    margin-left: 10px;
+    margin-top: 17px;
+  }
+  .search-container {
+    float: right;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-bottom: -7px;
+    border-radius: 20%;
+    margin-top: 20px;
+  }
+  .search-container form{
+    position: relative;
+  }
+  .btn_search{
+    background-color: skyblue;
+    border: none;
+    position: absolute;
+    top: 0;
+  }
+  .btn_search i{
+    padding: 0;
+    font-size: 23px;
+  }
+  .search_input{
+    background-color: rgb(255, 196, 0);
+    border: none;
+    padding: 10px;
+  }
   .test {
-    width: 100%;
+     width: 100%;
      height: 100%;
      background-color: rgb(255, 196, 0);
      color: white;
-     text-align: left;
-     font-size: 16px;
-     padding-left: 150px;
-     padding-right: 150px;
-     padding-top: 50px;
+     text-align: center;
+     font-size: 20px;
      padding-bottom: 50px;
+     padding-top: 50px;
    }
-   
-   .test1 {
+  .test1 {
+    float: left;
    width: 100%;
   
   }
   .test2 {
-    float: left;
+    float: right;
     width: 100%;
-
   }
-  .test::after{
+  .newimage{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+  }
+  .test::after {
+    display:block;
     content: "";
     clear: both;
-    display: block;
   }
   
   .add {
-    float: unset;
     width: 100%;
     height: 100%;
     background-color: white;
     color: black;
     text-align: center;
-    font-size: 16px;
-    padding-left: 80px;
-    padding-right: 50px;
+    font-size: 20px;
     padding-bottom: 50px;
-  
+    padding-top: 50px;
   }
   .add1 {
+    float: left;
     width: 100%;
-    text-align: left;
-    padding-right: 10px;
-    padding-left: 60px;
-   
+    text-align: center;
   }
-  .add2{
+  .add2 {
+    float: right;
     width: 100%;
-    text-align: left;
-    padding-right: 80px;
-    padding-left: 10px;
-    }
-
+    text-align: center;
+  }
   .add::after {
     display:block;
     content: "";
     clear: both;
   }
   .sum {
-    float: unset;
     width: 100%;
     height: 100%;
     background-color: white;
     color: black;
     text-align: center;
-    font-size: 16px;
-    padding-left: 100px;
-    padding-right: 80px;
-    margin-bottom: 80px;
-    margin-top: 0px;
+    font-size: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
-  .sum1 {
+  .sum2 {
+    float: left;
     width: 100%;
     text-align: left;
-    padding-right: 10px;
-    padding-left: 50px;
-   
   }
-  .sum2{
+  .sum1 {
+    float: right;
     width: 100%;
     text-align: center;
-    padding-left: 100px;
-    }
+  }
   .sum::after {
     display:block;
     content: "";
     clear: both;
   }
   .div {
-    float: unset;
-    width: 100%;
     height: 100%;
+    width: 100%;
     background-color: rgb(255, 196, 0);
     color: white;
     text-align: center;
-    font-size: 16px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    font-size: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
+      
   .div11 {
     float: left;
     width: 100%;
     padding: 10px;
     text-align: center;
-   
   }
-  .div12{
+  .div12 {
     float: left;
     width: 100%;
     padding: 10px;
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-  
+    text-align: center;  
   }
   .div13 {
     float: left;
     width: 100%;
     padding: 10px;
     text-align: center;
-  
-  }
-
-      .flex-container::after{
+  } 
+      .div::after{
         display:block;
         content:"";
         clear:both;
       }
       .div1 {
-    float: unset;
+    height: 100%;
     width: 100%;
     background-color: white;
     color: black;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
   
   }
   .div21 {
     float: left;
     width: 100%;
-    padding: 10px;
     text-align: center;
-   
-  
   }
   .div22{
     float: left;
     width: 100%;
-    padding: 10px;
     text-align: center;
-  
   }
   .div23 {
     float: left;
     width: 100%;
-    padding: 10px;
     text-align: center;
-  
   }
       .div1::after{
         display:block;
         content:"";
         clear:both;
       }
+      .div3 {
+        height: 100%;
+        width: 100%;
+        background-color: rgb(255, 196, 0);
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 50px;
+        padding-top: 50px;
+      }
+      .div31 {
+        float: left;
+        width: 100%;
+        text-align: center;
+      }
+      .div32 {
+        float: left;
+        width: 100%;
+        text-align: center;
+      
+      }
+      .div33 {
+        float: left;
+        width: 100%;
+        text-align: center;
+      }
+      .div3::after {
+        content: "";
+        display:block;
+        clear: both;
+      }
    
       .div4 {
-        height: 680px;
+        height: 100%;
         width: 100%;
         background-color: rgb(255, 196, 0);
         background-repeat: no-repeat;
         color: white;
         text-align: center;
-        font-size: 16px;
+        font-size: 20px;
         background-image: url("backimage.jpg");
         background-size: cover;
         background-position: center ;
-        padding-right: 100px;
-        padding-left: 100px;
         padding-top: 50px;
         padding-bottom: 50px;
       }
       .div41 {
-    float: left;
-    width: 100%;
-    text-align: center;
-  
-  }
-  .div42 {
-    float: left;
-    width: 100%;
-    text-align: center;
-  
-  }
+        float: left;
+       width: 100%;
+      text-align: center;
+     }
+     .div42 {
+      float: left;
+      width: 100%;
+      text-align: center;
+      }
   .div43 {
     float: left;
     width: 100%;
     text-align: center;
-    padding-left: 90px;
   }
   .div4::after {
     display:block;
@@ -2433,58 +2258,16 @@ section.su:after {
     clear: both;
   }
   
-  .div3 {
-    float: unset;
-    width: 100%;
-    background-color: rgb(255, 196, 0);
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
- 
-  .div31 {
-    float: left;
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-   
-  
-  }
-  .div32{
-    float: left;
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-  
-  }
-  .div33 {
-    float: left;
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-  
-  }
-  .div3::after {
-    content: "";
-    display:block;
-    clear: both;
-  }
       
-  .img {
+  img {
     border-radius: 8px;
     float: center;
-    height: 100px;
-    width: 100px;
   }
   video {
     float: right;
-    margin-right: 80px;
+    margin-right: 95px;
     border-radius: 8px;
     margin-top: 40px;
-    height: 300px;
-    width: 250px;
   }
   button:hover {
     background-color: rgb(32, 185, 236);
@@ -2517,7 +2300,6 @@ section.su:after {
   .fa {
     padding: 10px;
     font-size: 16px;
-   
     text-align: center;
     text-decoration: none;
     margin: 5px 5px;
@@ -2546,16 +2328,14 @@ section.su:after {
   }
   
   .h {
-    width: 100%;
     height: 100%;
+    width: 100%;
     background-color: white;
     color: black;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
-    padding-left: 50px ;
-    padding-right: 50px;
   }
   .h1 {
     float: left;
@@ -2577,7 +2357,6 @@ section.su:after {
     padding: 10px;
     text-align: center;
   }
-
   .h::after {
     display:block;
     content: "";
@@ -2585,15 +2364,14 @@ section.su:after {
   }
   .footer {
     width: 100%;
-    height: 700px;
+    height: 100%;
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 12px;
-    padding-left: 50px ;
-    padding-right: 50px;
-    padding-top: 50px;
-          }
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   }
     .box1 {
     float: left;
     width: 100%;
@@ -2606,7 +2384,6 @@ section.su:after {
     text-align: center;
           }
     .box3 {
-    float: left;
     width: 100%;
     text-align: center;
     display: flex;
@@ -2614,11 +2391,11 @@ section.su:after {
     }
     .search-container1 {
     float: right;
-    font-size: 12px;
+    font-size: 17px;
     border: none;
     cursor: pointer;
     border-radius: 20%;
-    margin-top:36px;
+    margin-top:35px;
     margin-right: 50px;
     padding-bottom: 20px;
   }
@@ -2632,14 +2409,12 @@ section.su:after {
   }
   .btn_search i{
     padding: 0;
-    font-size: 13px;
+    font-size: 23px;
   }
   .search_input{
     background-color: rgb(255, 196, 0);
     border: none;
     padding: 10px;
-    height:25px;
-    width:100px;
   }
    
     .social_media-icon  {
@@ -2681,123 +2456,117 @@ section.su:after {
     clear: both;
     display: block;
   }
-   .newimg{
+  .newimg{
     height: 200px;
     width: 200px;
     object-fit: cover;
   }
   .newimage{
-    height: 250px;
-    width: 300px;
-    object-fit: cover;
-    padding-right: 0px;
+    height: 300px;
+    width: 350px;
   }
-  .video {
-    width:300px; 
-    height:250px; 
-    outline:none;
-    margin-left: auto;
-    margin-right:auto;
-    }
 }
-@media only screen and (max-width: 360px) {
-  
-  .header {
-        background-color: rgb(255, 174, 0);
-        color: white;
-        width:100%;
-        font-size: 12px;
-        padding-left: 0px;
-        padding-right: 100px;
-      }
-      .logo img{
-        position: none;
-        margin-top: 10px;
-        height: 55px;
-        width: 80px;
-        margin-left: 50px;
 
-      }
-        
+@media only screen and (max-width: 360px) {
   ul {
     list-style-type: none;
-    padding: 10px;
+    padding: 20px;
     overflow: hidden;
     background-color: rgb(255, 174, 0);
-    display: block;
+    padding-top: 30px;
   }
   
   li {
-    float: center;
-    margin:0px;
+    float: right;
+    margin: 0px;
     margin-bottom: 0px;
     margin-top: -5px;
-    display: block;
   }
   
   li a {
-    display: block;
+    display: inline;
     color: white;
     text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
   }
-      .search-container {
-        float: right;
-        font-size: 5px;
-        border: none;
-        cursor: pointer;
-        margin-right: -25px;
-        margin-bottom: 0px;
-        border-radius: 0%;
-        margin-top:25px;
-      }
-      .search-container form{
-        position: relative;
-      }
-      .btn_search{
-        background-color: skyblue;
-        border: none;
-        position: absolute;
-        top: 0;
-        right: -36;
-      }
-      .btn_search i{
-        padding: 0;
-        font-size: 13px;
-      }
-      .search_input{
-        background-color: rgb(255, 196, 0);
-        border: none;
-      padding: 5px;
-      height: 15px;
-      width: 100px;
+  .header {
+        width:100%;
+        width: 100%;
+        background-color: rgb(255, 174, 0);
+        color: white;
+        text-align: left;
+        font-size: 20px;
+    
       }
   .header::after {
         display:block;
         content: "";
         clear: both;
   }
-  .test {
-    width: 100%;
-    height: 100%;
+  .logo img{
+    width: 130px;
+    position: absolute;
+    float:left;
+    margin-left: 10px;
+    margin-top: 17px;
+  }
+  .search-container {
+    float: right;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-bottom: -7px;
+    border-radius: 20%;
+    margin-top: 20px;
+  }
+  .search-container form{
+    position: relative;
+  }
+  .btn_search{
+    background-color: skyblue;
+    border: none;
+    position: absolute;
+    top: 0;
+  }
+  .btn_search i{
+    padding: 0;
+    font-size: 23px;
+  }
+  .search_input{
     background-color: rgb(255, 196, 0);
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    padding: 0px;
+    border: none;
+    padding: 10px;
+  }
+  .test {
+     width: 100%;
+     height: 100%;
+     background-color: rgb(255, 196, 0);
+     color: white;
+     text-align: center;
+     font-size: 20px;
+     padding-bottom: 50px;
+     padding-top: 50px;
    }
-   
-   .test1 {
-   width: 100%;
-   }
-  .test2 {
+  .test1 {
     float: left;
+   width: 100%;
+  
+  }
+  .test2 {
+    float: right;
     width: 100%;
   }
-  .test::after{
+  .newimage{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+  }
+  .test::after {
+    display:block;
     content: "";
     clear: both;
-    display: block;
   }
   
   .add {
@@ -2806,162 +2575,175 @@ section.su:after {
     background-color: white;
     color: black;
     text-align: center;
-    font-size: 16px;
-    padding: 0px;
+    font-size: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
   .add1 {
+    float: left;
     width: 100%;
-    text-align: left;
+    text-align: center;
   }
-  .add2{
+  .add2 {
+    float: right;
     width: 100%;
-    text-align: left;
-    }
-
+    text-align: center;
+  }
   .add::after {
     display:block;
     content: "";
     clear: both;
   }
-  .sum{
+  .sum {
     width: 100%;
     height: 100%;
     background-color: white;
     color: black;
     text-align: center;
-    font-size: 16px;
-    padding: 0px;
+    font-size: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
-  .sum1 {
+  .sum2 {
+    float: left;
     width: 100%;
     text-align: left;
-
   }
-  .sum2{
+  .sum1 {
+    float: right;
     width: 100%;
     text-align: center;
-    }
+  }
   .sum::after {
     display:block;
     content: "";
     clear: both;
   }
   .div {
-    float: unset;
-    width: 100%;
     height: 100%;
+    width: 100%;
     background-color: rgb(255, 196, 0);
     color: white;
     text-align: center;
-    font-size: 16px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    font-size: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
+      
   .div11 {
     float: left;
     width: 100%;
     padding: 10px;
     text-align: center;
-   
   }
-  .div12{
+  .div12 {
     float: left;
     width: 100%;
     padding: 10px;
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-  
+    text-align: center;  
   }
   .div13 {
     float: left;
     width: 100%;
     padding: 10px;
     text-align: center;
-  
-  }
-
-      .flex-container::after{
+  } 
+      .div::after{
         display:block;
         content:"";
         clear:both;
       }
       .div1 {
-    float: unset;
+    height: 100%;
     width: 100%;
     background-color: white;
     color: black;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
   
   }
   .div21 {
     float: left;
     width: 100%;
-    padding: 10px;
     text-align: center;
-   
-  
   }
   .div22{
     float: left;
     width: 100%;
-    padding: 10px;
     text-align: center;
-  
   }
   .div23 {
     float: left;
     width: 100%;
-    padding: 10px;
     text-align: center;
-  
   }
       .div1::after{
         display:block;
         content:"";
         clear:both;
       }
+      .div3 {
+        height: 100%;
+        width: 100%;
+        background-color: rgb(255, 196, 0);
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 50px;
+        padding-top: 50px;
+      }
+      .div31 {
+        float: left;
+        width: 100%;
+        text-align: center;
+      }
+      .div32 {
+        float: left;
+        width: 100%;
+        text-align: center;
+      
+      }
+      .div33 {
+        float: left;
+        width: 100%;
+        text-align: center;
+      }
+      .div3::after {
+        content: "";
+        display:block;
+        clear: both;
+      }
    
       .div4 {
-        height: 680px;
+        height: 100%;
         width: 100%;
         background-color: rgb(255, 196, 0);
         background-repeat: no-repeat;
         color: white;
         text-align: center;
-        font-size: 16px;
+        font-size: 20px;
         background-image: url("backimage.jpg");
         background-size: cover;
         background-position: center ;
-        padding-right: 100px;
-        padding-left: 100px;
         padding-top: 50px;
         padding-bottom: 50px;
       }
       .div41 {
-    float: left;
-    width: 100%;
-    text-align: center;
-  
-  }
-  .div42 {
-    float: left;
-    width: 100%;
-    text-align: center;
-  
-  }
+        float: left;
+       width: 100%;
+      text-align: center;
+     }
+     .div42 {
+      float: left;
+      width: 100%;
+      text-align: center;
+      }
   .div43 {
     float: left;
     width: 100%;
     text-align: center;
-    padding-left: 90px;
   }
   .div4::after {
     display:block;
@@ -2969,53 +2751,18 @@ section.su:after {
     clear: both;
   }
   
-  .div3 {
-    float: unset;
-    width: 100%;
-    background-color: rgb(255, 196, 0);
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
- 
-  .div31 {
-    float: left;
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-   
-  
-  }
-  .div32{
-    float: left;
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-  
-  }
-  .div33 {
-    float: left;
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-  
-  }
-  .div3::after {
-    content: "";
-    display:block;
-    clear: both;
-  }
       
-  .img {
-        text-align: center;
+  img {
+    border-radius: 8px;
+    float: center;
   }
   video {
-    text-align: center;
+    height: 290px;
+    width: 290px;
+    float: right;
+    margin-right: 30px;
     border-radius: 8px;
-    height: 300px;
-    width: 250px;
+    margin-top: 40px;
   }
   button:hover {
     background-color: rgb(32, 185, 236);
@@ -3048,7 +2795,6 @@ section.su:after {
   .fa {
     padding: 10px;
     font-size: 16px;
-   
     text-align: center;
     text-decoration: none;
     margin: 5px 5px;
@@ -3077,16 +2823,14 @@ section.su:after {
   }
   
   .h {
-    width: 100%;
     height: 100%;
+    width: 100%;
     background-color: white;
     color: black;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
-    padding-left: 50px ;
-    padding-right: 50px;
   }
   .h1 {
     float: left;
@@ -3115,15 +2859,14 @@ section.su:after {
   }
   .footer {
     width: 100%;
-    height: 700px;
+    height: 100%;
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 12px;
-    padding-left: 50px ;
-    padding-right: 50px;
-    padding-top: 50px;
-          }
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   }
     .box1 {
     float: left;
     width: 100%;
@@ -3136,7 +2879,6 @@ section.su:after {
     text-align: center;
           }
     .box3 {
-    float: left;
     width: 100%;
     text-align: center;
     display: flex;
@@ -3144,11 +2886,11 @@ section.su:after {
     }
     .search-container1 {
     float: right;
-    font-size: 12px;
+    font-size: 17px;
     border: none;
     cursor: pointer;
     border-radius: 20%;
-    margin-top:36px;
+    margin-top:35px;
     margin-right: 50px;
     padding-bottom: 20px;
   }
@@ -3162,14 +2904,12 @@ section.su:after {
   }
   .btn_search i{
     padding: 0;
-    font-size: 13px;
+    font-size: 23px;
   }
   .search_input{
     background-color: rgb(255, 196, 0);
     border: none;
     padding: 10px;
-    height:25px;
-    width:100px;
   }
    
     .social_media-icon  {
@@ -3211,14 +2951,13 @@ section.su:after {
     clear: both;
     display: block;
   }
-   .newimg{
+  .newimg{
     height: 200px;
     width: 200px;
     object-fit: cover;
   }
   .newimage{
-    height: 250px;
-    width: 300px;
+    height: 300px;
+    width: 350px;
   }
-
 }
