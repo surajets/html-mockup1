@@ -242,8 +242,6 @@ button:hover {
   font-size: 16px;
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 .container4 {
   width: 100%;
@@ -300,9 +298,6 @@ button:hover {
      font-size: 16px;
      padding-top: 50px;
      padding-bottom: 50px;
-     padding-left: 50px;
-     padding-right: 50px;
-
     }
 .container9 {
     width: 100%;
@@ -313,4 +308,11 @@ button:hover {
     font-size: 16px;
     padding-top: 50px;
     padding-bottom: 50px;
+    }
+    @media only screen and (max-width: 320px) {
+      .newimage{
+        border-radius: 8px;
+        height: 280px;
+        width: 300px;
+      }
     }
